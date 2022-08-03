@@ -6,7 +6,7 @@
 #    By: ccottin <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/02 17:05:58 by ccottin           #+#    #+#              #
-#    Updated: 2022/08/03 00:03:08 by ccottin          ###   ########.fr        #
+#    Updated: 2022/08/03 10:11:42 by ccottin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,7 +27,7 @@ CFLAGS	= -Wall -Wextra -Werror -g3
 all	:	$(NAME)
 
 %.o	:	%.c
-		$(CC) $(CFLAGS) -I/usr/include -Imlx_Linux -I./ -c $< -o $@
+		$(CC) $(CFLAGS) -I/usr/include -Imlx_Linux -I./includes -c $< -o $@
 
 $(NAME)	:	$(OBJS)
 		make -C ./mlx_Linux

@@ -1,16 +1,14 @@
 #include "header.h"
 
-int	main(void)
+int	main(int ac, char **av)
 {
-	void	*mlx;
-	void	*win;
+	t_data	data;
+	int	ret;
 
-	mlx = mlx_init();
-	if (!mlx)
-		return (-1);
-	win = mlx_new_window(mlx, 500, 500, "Hello World");
-	if (!win)
-		return (-1);
-	mlx_loop(mlx);
+	if (ac != 0)
+		ft_return(1, &data);
+	ret = init_map(av[1], &data);
+	if (ret)
+		ft_return(ret, &data);
 	return (0);
 }

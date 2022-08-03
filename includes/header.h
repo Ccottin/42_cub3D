@@ -16,4 +16,7 @@ typedef struct s_win {
 typedef struct s_data {
 	}	t_data;
 
+void	ft_return(int ret, t_data *data);
+void	set_null(t_data *data);
+
 #endif
