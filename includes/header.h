@@ -14,9 +14,12 @@ typedef struct s_win {
 	}	t_win;
 
 typedef struct s_data {
+	char	**map;
+	int	map_size;
 	}	t_data;
 
 void	ft_return(int ret, t_data *data);
 void	set_null(t_data *data);
+void	*ft_calloc(size_t nmem);
 
 #endif

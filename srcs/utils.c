@@ -1,33 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_return.c                                        :+:      :+:    :+:   */
+/*   utils.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/08/03 18:04:53 by ccottin          ###   ########.fr       */
+/*   Created: 2022/08/03 17:24:11 by ccottin           #+#    #+#             */
+/*   Updated: 2022/08/03 17:26:41 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.h"
 
-void	ft_return(int ret, t_data *data)
+void	*ft_calloc(size_t nmem)
 {
-	if (ret == 1)
+	char	*ret;
+	size_t	i;
+
+	ret = malloc(nmem);
+	if (!ret)
+		return (NULL);
+	i = 0;
+	while (i < nmem)
 	{
-		printf("Error\nPlease give a single map as argument\n");
-		exit(0);
+		ret[i] = 0;
+		i++;
 	}
-	if (ret == -2)
-	{
-		printf("Error\nInvalid file extension\n");
-		exit(0);
-	}
-	if (ret == -1)
-	{
-		printf("Error\n");
-		perror("cub3D ");
-		exit (1);
-	}
+	return ((void *)ret);
 }
