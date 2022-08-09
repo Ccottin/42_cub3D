@@ -17,27 +17,27 @@ void	free_map(t_data *data)
 	int	i;
 
 	i = 0;
-	if (!data->map)
+	if (!data->map.map)
 		return;
-	while (data->map[i])
+	while (data->map.map[i])
 	{
-		free(data->map[i]);
+		free(data->map.map[i]);
 		i++;
 	}
-	free(data->map);
+	free(data->map.map);
 }
 
 void	free_all(t_data *data)
 {
 	free_map(data);
-	if (data->north_texture)
-		free(data->north_texture);
-	if (data->south_texture)
-		free(data->south_texture);
-	if (data->east_texture)
-		free(data->east_texture);	
-	if (data->west_texture)
-		free(data->west_texture);
+	if (data->map.north_texture)
+		free(data->map.north_texture);
+	if (data->map.south_texture)
+		free(data->map.south_texture);
+	if (data->map.east_texture)
+		free(data->map.east_texture);	
+	if (data->map.west_texture)
+		free(data->map.west_texture);
 
 }
 
@@ -71,7 +71,7 @@ void	ft_return(int ret, t_data *data)
 	}
 	if (ret == -6)
 	{
-		printf("Error\nColor range is contained between 0 and 255 included\n");
+		printf("Error\nColor range must be between 0 and 255\n");
 		exit(0);
 	}
 	if (ret == -7)
@@ -82,6 +82,21 @@ void	ft_return(int ret, t_data *data)
 	if (ret == -8)
 	{
 		printf("Error\nToo few information for an element\n");
+		exit(0);
+	}
+	if (ret == -9)
+	{
+		printf("Error\nInvalid map caracter\n");
+		exit(0);
+	}
+	if (ret == -10)
+	{
+		printf("Error\nMap should have one starting position\n");
+		exit(0);
+	}
+	if (ret == -11)
+	{
+		printf("Error\nMap is not surrounded by wall\n");
 		exit(0);
 	}
 	if (ret == -1)

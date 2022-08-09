@@ -50,6 +50,8 @@ int	is_char_map(char c)
 {
 	if (c == '1' || c == '0')
 		return (1);
+	if (c == ' ')
+		return (2);
 	return (0);
 }
 

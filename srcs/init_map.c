@@ -16,17 +16,17 @@ int	ft_cpy(t_data *data, char *buffer, int start, int end)
 {
 	int	i;
 
-	data->map[data->map_size] = ft_calloc(end - start + 1);
-	if (!data->map[data->map_size])
+	data->map.map[data->map.map_size] = ft_calloc(end - start + 1);
+	if (!data->map.map[data->map.map_size])
 		return (-1);
 	i = 0;
 	while (buffer[start] && buffer[start] != '\n' && start < end)
 	{
-		data->map[data->map_size][i] = buffer[start];
+		data->map.map[data->map.map_size][i] = buffer[start];
 		i++;
 		start++;
 	}
-	data->map_size++;
+	data->map.map_size++;
 	return (0);
 }
 
@@ -63,13 +63,13 @@ int	check_last_char(t_data *data, char *buffer, int end)
 	int	i;
 
 	i = 0;
-	while (data->map[data->map_size - 1][i])
+	while (data->map.map[data->map.map_size - 1][i])
 		i++;
-	if (i == 0 || data->map[data->map_size - 1][i - 1] == '\n')
+	if (i == 0 || data->map.map[data->map.map_size - 1][i - 1] == '\n')
 		return (0);
-	data->map[data->map_size - 1]
-		= ft_concat(data->map[data->map_size - 1], buffer, end);
-	if (!data->map[data->map_size - 1])
+	data->map.map[data->map.map_size - 1]
+		= ft_concat(data->map.map[data->map.map_size - 1], buffer, end);
+	if (!data->map.map[data->map.map_size - 1])
 		return (-1);
 	return (1);
 }
@@ -79,7 +79,7 @@ int	put_line_2(t_data *data, char *buffer, int start, int i)
 	int	ret;
 
 	ret = 0;
-	if (data->map_size > 0 && start == 0)
+	if (data->map.map_size > 0 && start == 0)
 		ret = check_last_char(data, buffer, i);
 	if (ret == -1)
 		return (-1);
@@ -157,8 +157,8 @@ int	malloc_gm_init(t_data *data, char **buffer, char *av)
 		free(*buffer);
 		return (-1);
 	}
-	data->map = ft_calloc((m_size + 2) * sizeof(char *));
-	if (!data->map)
+	data->map.map = ft_calloc((m_size + 2) * sizeof(char *));
+	if (!data->map.map)
 	{
 		free(*buffer);
 		return (-1);

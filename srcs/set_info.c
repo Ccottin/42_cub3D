@@ -20,17 +20,17 @@ int	fill_colors(t_data *data, char *buffer, int *count, char c)
 	if (r > 255)
 		return (-6);
 	if (c == 'C' && *count == 0)
-		data->ceiling_color.red = r;
+		data->map.ceiling_color.red = r;
 	else if (c == 'C' && *count == 1)
-		data->ceiling_color.green = r;
+		data->map.ceiling_color.green = r;
 	else if (c == 'C' && *count == 2)
-		data->ceiling_color.blue = r;
+		data->map.ceiling_color.blue = r;
 	else if (c == 'F' && *count == 0)
-		data->floor_color.red = r;
+		data->map.floor_color.red = r;
 	else if (c == 'F' && *count == 1)
-		data->floor_color.green = r;
+		data->map.floor_color.green = r;
 	else if (c == 'F' && *count == 2)
-		data->floor_color.blue = r;
+		data->map.floor_color.blue = r;
 	(*count)++;
 	return (0);
 }
@@ -53,7 +53,7 @@ int	get_colors_2(t_data *data, char *str, int *i, int *count)
 		return (-7);
 	}
 	(*i)++;
-	ret = fill_colors(data, buffer, count, data->c);
+	ret = fill_colors(data, buffer, count, data->map.c);
 	free(buffer);
 	if (ret)
 		return (ret);
@@ -68,14 +68,14 @@ int	get_colors(t_data *data, char *str, int i, char c)
 	count = 0;
 	while (str[i] && str[i] == ' ')
 		i++;
-	data->c = c;
-	while (str[i] && count < 3)
+	data->map.c = c;
+	while (count < 3 && str[i])
 	{
 		ret = get_colors_2(data, str, &i, &count);
 		if (ret)
 			return (ret);
 	}
-	while (str[i] && str[i] == ' ')
+	while (count < 3 && str[i] && str[i] == ' ')
 		i++;
 	if (str[i - 1] && str[i - 1] != '\n')
 		return (-5);
@@ -99,6 +99,8 @@ int	search_info(t_data *data, char *str)
 	}
 	else if (str[0] == 'C' || str[0] == 'F')
 		return (get_colors(data, str, 1, str[0]));
+	else if (str[0] == 0)
+		return (0);
 	else
 		return (-4);
 	return (0);
@@ -110,22 +112,20 @@ int	set_info(t_data *data)
 	int	ret;
 
 	i = 0;
-	while (data->map[i] && !(is_char_map(data->map[i][0])))
+	while (data->map.map[i] && !(is_char_map(data->map.map[i][0])))
 	{
-		printf("is char map = %d\n", is_char_map(data->map[i][0]));
-		//BAWI JAMIE ya un tab sur ta premiere ligne omfg c'est pas autorise en plusse
-		ret = search_info(data, data->map[i]);
-		printf("%s, ret = %d\n", data->map[i], ret);
+		ret = search_info(data, data->map.map[i]);
 		if (ret)
 			return (ret);
 		i++;
 	}
-	if (data->north_texture == NULL || data->south_texture == NULL
-		|| data->east_texture == NULL || data->west_texture == NULL
-		|| data->floor_color.red == -1 || data->floor_color.green == -1
-		|| data->floor_color.blue == -1 || data->ceiling_color.red == -1 
-		|| data->ceiling_color.green == -1
-		|| data->ceiling_color.blue == -1)
+	if (data->map.map[i] && !(is_char_map(data->map.map[i][0]))
+		&& !(is_char_acter(data->map.map[i][0])))
+		return (-9);
+	if (!all_info_set(data))
 		return (-3);
+	ret = detach_map(data);
+	if (ret)
+		return (ret);
 	return (0);
 }

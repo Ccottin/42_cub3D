@@ -37,14 +37,14 @@ int	get_info_wall_0(t_data *data, char *str, int i, char c)
 		y++;
 	if (c == 'N')
 	{
-		data->north_texture = fill_info_wall(str, i, y);
-		if (!data->north_texture)
+		data->map.north_texture = fill_info_wall(str, i, y);
+		if (!data->map.north_texture)
 			return (-1);
 	}
 	if (c == 'S')
 	{
-		data->south_texture = fill_info_wall(str, i, y);
-		if (!data->south_texture)
+		data->map.south_texture = fill_info_wall(str, i, y);
+		if (!data->map.south_texture)
 			return (-1);
 	}
 	while (str[y] && str[y] == ' ')
@@ -65,14 +65,14 @@ int	get_info_wall_1(t_data *data, char *str, int i, char c)
 		y++;
 	if (c == 'E')
 	{
-		data->east_texture = fill_info_wall(str, i, y);
-		if (!data->east_texture)
+		data->map.east_texture = fill_info_wall(str, i, y);
+		if (!data->map.east_texture)
 			return (-1);
 	}
 	if (c == 'W')
 	{
-		data->west_texture = fill_info_wall(str, i, y);
-		if (!data->west_texture)
+		data->map.west_texture = fill_info_wall(str, i, y);
+		if (!data->map.west_texture)
 			return (-1);
 	}
 	while (str[y] && str[y] == ' ')
