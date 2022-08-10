@@ -12,14 +12,14 @@ int	get_new_map(t_data *data, int i)
 	while (data->map.map[size]
 		&& is_char_map(data->map.map[size][0]))
 		size++;
-	new = ft_calloc(sizeof(char *) * (size - i + 1));
+	new = ft_calloc(sizeof(char *) * (size - i + 2));
 	if (!new)
 		return (-1);
 	size = 0;
 	while (data->map.map[i]
 		&& size < data->map.map_size)
 	{
-		new[size++] = ft_strdup2(data->map.map[i++], data->map.map_size);
+		new[size++] = ft_strdup(data->map.map[i++]);
 		if (!new[size - 1])
 			return (-1);
 	}
@@ -53,29 +53,54 @@ void	player_pos(t_data *data)
 	}
 }
 
+int	find_it(char **map)
+{
+	int	ret;
+	int	y;
+
+	y = 0;
+	ret = 0;
+	while (map[y])
+	{
+		if (ret < ft_strlen(map[y]))
+			ret = ft_strlen(map[y]);
+		y++;
+	}
+	return (ret);
+}
+
 int	check_all_y(char **map)
 {
 	int	x;
 	int	y;
+	int	bigger_line;
 
 	x = 0;
 	y = 0;
-	while (map[y] && map[y][x])
+	bigger_line = find_it(map);
+	while (map[y])
 	{
-		while (map[y] && map[y][x] && map[y][x] == ' ')
-			y++;
-		if (map[y] && map[y][x] && map[y][x] != '1')
-			return (-1);
-		y++;
-		while (map[y] && map[y][x] && (is_char_map(map[y][x]) == 1
-			|| is_char_acter(map[y][x])))
+		if (ft_strlen(map[y]) > x && map[y][x] != ' ')
 		{
+			if (map[y][x] == '1' && ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
+			{
+				while (map[y] && ft_strlen(map[y]) > x && (is_char_map(map[y][x]) == 1 || is_char_acter(map[y][x]) == 1))
+					y++;
+				y--;
+			}
+			else if (map[y][x] == '0')
+				return (-1);
+			if (!map[y] || ft_strlen(map[y]) <= x || map[y][x] == '0')
+				return (-1);
 			y++;
 		}
-		if (map[y - 1] && map[y - 1][x] && map[y - 1][x] != '1')
-			return (-1);
-		x++;
-		y = 0;
+		else
+			y++;
+		if (!map[y] && x < bigger_line)
+		{
+			y = 0;
+			x++;
+		}
 	}
 	return (0);
 }
@@ -86,20 +111,22 @@ int	check_all_x(char **map)
 	int	y;
 
 	y = 0;
+	x = 0;
 	while (map[y])
 	{
-		x = 0;
-		while (map[y][x] && map[y][x] == ' ')
+		while (map[y][x] == ' ')
 			x++;
-		if (map[y][x] && map[y][x] != '1')
+		if (x == '0')
 			return (-1);
-		x++;
-		while (map[y][x] && (is_char_map(map[y][x]) == 1
-			|| is_char_acter(map[y][x])))
+		while (map[y][x] && (is_char_map(map[y][x]) == 1 || is_char_acter(map[y][x]) == 1))
 			x++;
-		if (map[y][x - 1] && map[y][x - 1] != '1')
+		if (x > 0 && map[y][x - 1] && map[y][x - 1] != '1')
 			return (-1);
-		y++;
+		if (!map[y][x])
+		{
+			y++;
+			x = 0;
+		}
 	}
 	return (0);
 }
@@ -108,10 +135,8 @@ int	map_closed(t_data *data)
 {
 	if (check_all_x(data->map.map))
 		return (-11);
-	printf("1\n");
 	if (check_all_y(data->map.map))
 		return (-11);
-	printf("2\n");
 	player_pos(data);
 	return (0);
 }
@@ -124,7 +149,7 @@ int	check_map(t_data *data)
 
 	count = 0;
 	y = 0;
-	while (data->map.map[y])
+	while (y < data->map.map_size && data->map.map[y])
 	{
 		x = 0;
 		while (data->map.map[y][x] && (is_char_map(data->map.map[y][x])

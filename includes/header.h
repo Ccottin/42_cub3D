@@ -46,7 +46,7 @@ typedef struct s_data {
 	t_win	win;
 	}	t_data;
 
-char	*ft_strdup2(char *s, int size);
+char	*ft_strdup(char *s);
 int	detach_map(t_data *data);
 int	ft_strlen(char *str);
 int	is_char_map(char c);

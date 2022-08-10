@@ -16,12 +16,12 @@ int	all_info_set(t_data *data)
 	return (1);
 }
 
-char	*ft_strdup2(char *s, int size)
+char	*ft_strdup(char *s)
 {
 	char	*ret;
 	size_t	i;
 
-	ret = ft_calloc(size + 1);
+	ret = ft_calloc(ft_strlen(s)+ 1);
 	if (!ret)
 		return (NULL);
 	i = 0;
