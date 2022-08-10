@@ -1,5 +1,8 @@
 #include "header.h"
 
+/*petit erratum, j ai inverse les x et le y, du coup pour la structure et les cooronees sur perso j ai re echange les bails, 
+en esperant aue ce ne soit pas trop confu*/
+
 int	get_new_map(t_data *data, int i)
 {
 	int	size;
@@ -38,8 +41,8 @@ void	player_pos(t_data *data)
 		{
 			if (is_char_acter(data->map.map[y][x]))
 			{
-				data->map.player.player_x = x;
-				data->map.player.player_y = y;
+				data->map.player.player_y = x;
+				data->map.player.player_x = y;
 				data->map.player.player_facing
 					= data->map.map[y][x];
 				return ;
