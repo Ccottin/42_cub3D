@@ -72,17 +72,6 @@ char	**map_init(void)
 	return (map);
 }
 
-void	set_struct(t_map *set)
-{
-	set->wall_size = 96;	
-	set->player_x = 3 * set->wall_size + (set->wall_size / 2);
-	set->player_y = 3 * set->wall_size + (set->wall_size / 2);
-	set->fov = 70;
-	set->screen_l = 640;
-	set->screen_w = 400;
-	set->lengh_plane = (set->screen_l / 2) / tan(set->fov / 2);
-}
-
 int	check_horizontal(t_map *set, int ray, int *x, int *y, char **map)
 {	
 	int	starty;
@@ -100,8 +89,8 @@ int	check_horizontal(t_map *set, int ray, int *x, int *y, char **map)
 	printf(" HORI\nx : case = %d, start = %d\ny : case = %d, start = %d\n", casex, startx, casey, starty);
 	if (map[casex][casey] == '1')
 	{
-		*x = casex;
-		*y = casey;
+		*x = startx;
+		*y = starty;
 		return (1);
 	}
 	addx = tan(set->fov / 2) / set->wall_size;
@@ -112,8 +101,8 @@ int	check_horizontal(t_map *set, int ray, int *x, int *y, char **map)
 		casey = starty / set->wall_size;
 		casex = startx / set->wall_size;
 	}
-	*x = casex;
-	*y = casey;
+	*x = startx;
+	*y = starty;
 	return (0);
 	
 }
@@ -135,8 +124,8 @@ int	check_vertical(t_map *set, int ray, int *x, int *y, char **map)
 	printf("VERTI\nx : case = %d, start = %d\ny : case = %d, start = %d\n", casex, startx, casey, starty);
 	if (map[casex][casey] == '1')
 	{
-		*x = casex;
-		*y = casey;
+		*x = startx;
+		*y = starty;
 		return (1);
 	}
 	addy = set->wall_size * tan(set->fov / 2);
@@ -147,28 +136,68 @@ int	check_vertical(t_map *set, int ray, int *x, int *y, char **map)
 		casey = starty / set->wall_size;
 		casex = startx / set->wall_size;
 	}
-	*x = casex;
-	*y = casey;
+	*x = startx;
+	*y = starty;
 	return (0);
-
-
 }
 //first step to round down player pos so we can avoid float, then we find player is on y = 2 on map
+
+void	get_proj(t_map *set, int dst)
+{
+	int	proj;
+	int	middle;
+	int	start;
+	int	end;
+	int	i;
+
+	proj = set->wall_size / dst * set->lengh_plane;
+	middle = set->screen_w / 2;
+	start = middle + proj / 2;
+	end = middle - proj / 2;
+	i = end;
+	printf("coucou\n");
+	while (i < start)
+	{
+		pixel_to_image(set, i, 5, 0x00FF0000);
+		i++;
+	}
+	i = end;
+	while (i < start)
+	{
+		pixel_to_image(set, i, 6, 0x00FF0000);
+		i++;
+	}
+	i = end;
+	while (i < start)
+	{
+		pixel_to_image(set, i, 7, 0x00FF0000);
+		i++;
+	}
+}
 
 void	calculate_ray(t_map *set, int ray, int *x, int *y, char **map)
 {
 	int	hx;
-	int	hy;
+//	int	hy;
 	int	vx;
-	int	vy;
+//	int	vy;
+	int	dsth;
+	int	vdst;
+	int	dst;
 
 	check_horizontal(set, ray, x, y, map);
 	hx = *x;
-	hy = *y;
+//	hy = *y;
 	check_vertical(set, ray, x, y, map);
 	vx = *x;
-	vy = *y;
-	printf("case h = %d, %d ; case v = %d %d\n", hx, hy, vx, vy);
+//	vy = *y;
+	dsth = abs(set->player_x - hx) / cos(set->fov / 2);
+	vdst = abs(set->player_x - vx) / cos(set->fov / 2);
+	if (dsth < vdst)
+		dst = dsth;
+	else
+		dst = vdst;
+	get_proj(set, dst);
 }
 
 void	put_pixel(t_map *set, char **map)
@@ -181,13 +210,41 @@ void	put_pixel(t_map *set, char **map)
 	set->img.addr = mlx_get_data_addr(set->img.img, &(set->img.bpx),
 		&(set->img.line_length), &(set->img.endian));
 	ray = 0;
-	while (ray < set->screen_l)
-	{
+//	while (ray < set->screen_l)
+//	{
 		x = 0;
 		y = 0;
 		calculate_ray(set, ray, &x, &y, map);
-		pixel_to_image(set, x, y, 0x21D7DA);
 		ray++;
+//	}
+}
+
+void	set_struct(t_map *set)
+{
+	set->wall_size = 96;	
+	set->player_x = 3 * set->wall_size + (set->wall_size / 2);
+	set->player_y = 3 * set->wall_size + (set->wall_size / 2);
+	set->fov = 70;
+	set->screen_l = 640;
+	set->screen_w = 400;
+	set->lengh_plane = (set->screen_l / 2) / tan(set->fov / 2);
+}
+
+void	ft_test(t_map *set)
+{
+	int	i;
+	int	y;
+
+	y = 200;
+	while (y < set->screen_w)
+	{
+		i = 0;
+		while (i < set->screen_l)
+		{
+			pixel_to_image(set, i, y, 0x00FF0000);
+			i++;
+		}
+		y++;
 	}
 }
 
@@ -210,6 +267,7 @@ int	main(void)
 		return (-1);
 	set.img.img = mlx_new_image(mlx, set.screen_l, set.screen_w);
 	put_pixel(&set, map);
+	ft_test(&set);
 	mlx_put_image_to_window(mlx, win, set.img.img, 0, 0);
 	mlx_loop(mlx);
 	return (0);
