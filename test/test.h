@@ -27,4 +27,11 @@ typedef struct s_map {
 	int	wall_size;
 	}	t_map;
 
+
+int	ft_strlen(const char *s);
+void	pixel_to_image(t_map *set, int x, int y, int color);
+char	*ft_strdup(const char *s);
+void	*ft_calloc(int size);
+char	**map_init(void);
+
 #endif

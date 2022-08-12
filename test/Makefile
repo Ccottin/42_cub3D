@@ -6,13 +6,13 @@
 #    By: ccottin <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/02 17:05:58 by ccottin           #+#    #+#              #
-#    Updated: 2022/08/10 20:07:25 by ccottin          ###   ########.fr        #
+#    Updated: 2022/08/12 17:18:40 by ccottin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= cub3D
 
-SRCS	= main.c
+SRCS	= main.c utils.c
 
 SRCSDIR	= srcs
 
