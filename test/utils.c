@@ -61,11 +61,11 @@ char	**map_init(void)
 		return (NULL);
 	if (!(map[0] = ft_strdup("111111")))
 		return (NULL);
-	if (!(map[1] = ft_strdup("111111")))
+	if (!(map[1] = ft_strdup("100011")))
 		return (NULL);
-	if (!(map[2] = ft_strdup("11P111")))
+	if (!(map[2] = ft_strdup("10P001")))
 		return (NULL);
-	if (!(map[3] = ft_strdup("111111")))
+	if (!(map[3] = ft_strdup("100001")))
 		return (NULL);
 	if (!(map[4] = ft_strdup("111111")))
 		return (NULL);

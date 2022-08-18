@@ -16,14 +16,21 @@ typedef struct s_img {
 
 typedef struct s_map {
 	t_img	img;
+	char	**map;
+	int	case_x;
+	int	case_y;
 	int	player_x;
 	int	player_y;
+	int	dirx;
+	int	diry;
 	int	planex;
 	int	planey;
 	int	fov;
-	int	lengh_plane;
+	int	dist_plane;
 	int	screen_l;
 	int	screen_w;
+	int	middle_l;
+	int	middle_w;
 	int	wall_size;
 	}	t_map;
 
