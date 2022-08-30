@@ -27,21 +27,32 @@ void	find_wall_h(t_map *set, float ray, int *x, int *y)
 	py = set->player_y + (set->player_x - px) * tan(abs(ray) * M_PI / 180);
 	cx = px / set->wall_size;
 	cy = py / set->wall_size;
-	add = (float)set->wall_size * tan(abs(ray) * M_PI / 180);
+	if (tan(abs(ray) * M_PI / 180) == 0.0)
+		add = 0;
+	else
+		add = (float)set->wall_size * tan(abs(ray) * M_PI / 180);
 	printf("init = x = %d, y = %d\n", px, py);
 	while (set->map[cx][cy] && set->map[cx][cy] != '1')
 	{
-		px = px + set->wall_size;
-		py = py + add;
+		if (ray < 0) //pas sure de cette dinguerie
+		{
+			px = px + set->wall_size;
+			py = py - add;
+		}
+		else
+		{
+			px = px + set->wall_size;
+			py = py + add;
+		}
 		cx = px / set->wall_size;
 		cy = py / set->wall_size;
 	}
-	printf("x = %d, y = %d, cx = %d cy = %d add = %f\n", px, py, cx, cy, add);
-	*x = cx;
-	*y = cy;
+//	printf("x = %d, y = %d, cx = %d cy = %d add = %f\n", px, py, cx, cy, add);
+	*x = px;
+	*y = py;
 }
 
-void	get_proj(t_map *set, int dst, float ray)
+void	get_proj(t_map *set, int dst, int x)
 {
 	int	proj;
 	int	start;
@@ -51,15 +62,14 @@ void	get_proj(t_map *set, int dst, float ray)
 
 	fech = (float)set->wall_size / (float)set->dist_plane;
 	proj = dst * fech;
-	printf("ray = %f proj = %d, dst = %d, fech = %f,  set->lengh_plane = %d\n\n\n", ray, proj, dst, fech, set->dist_plane);
+//	printf("ray = %f proj = %d, dst = %d, fech = %f,  set->lengh_plane = %d\n", ray, proj, dst, fech, set->dist_plane);
 	start = set->middle_w + (proj / 2);
 	end = set->middle_w - (proj / 2);
 	i = end;
 	printf("start = %d,end = %d\n", start, end);
-	printf("coucou\n");
 	while (i < start)
 	{
-		pixel_to_image(set, ray, i, 0x00FF0000);
+		pixel_to_image(set, x, i, 0x00FF0000);
 		i++;
 	}
 }
@@ -80,20 +90,21 @@ void	get_img(t_map *set)
 		find_wall_h(set, ray, &x, &y);
 //		find_wall_v(set, start, ray);
 //		draw_line(set, start);(copié de l ancien)
+		printf("x = %d y = %d", x, y);
 		dst = sqrt((x - set->player_x) * (x - set->player_x)
 			+ (y - set->player_y) * (y - set->player_y));
-		get_proj(set, dst, ray);
+		get_proj(set, dst, start);
 		ray += (float)set->fov/(float)set->screen_l;
 		start++;
-		printf("ray = %f, start = %d\n", ray, start);
+	//	printf("ray = %f, start = %d\n", ray, start);
 	}
 }
 
 void	set_struct(t_map *set)
 {
-	set->case_x = 2;
-	set->case_y = 2;
-	set->dirx = -1;
+	set->case_x = 1;
+	set->case_y = 1;
+	set->dirx = 1;
 	set->diry = 1;
 	set->wall_size = 64;	
 	set->player_x = set->case_x * set->wall_size + (set->wall_size / 2);

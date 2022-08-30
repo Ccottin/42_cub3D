@@ -1,0 +1,4371 @@
+init = x = 127, y = 179
+x = 63, y = 142, cx = 0 cy = 2 add = 36.950417
+ray = -30.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.906250, start = 1
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.812500, start = 2
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.718750, start = 3
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.625000, start = 4
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.531250, start = 5
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.437500, start = 6
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.343750, start = 7
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.250000, start = 8
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.156250, start = 9
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -29.062500, start = 10
+init = x = 127, y = 178
+x = 63, y = 142, cx = 0 cy = 2 add = 35.475780
+ray = -29.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.968750, start = 11
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.875000, start = 12
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.781250, start = 13
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.687500, start = 14
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.593750, start = 15
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.500000, start = 16
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.406250, start = 17
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.312500, start = 18
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.218750, start = 19
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.125000, start = 20
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -28.031250, start = 21
+init = x = 127, y = 177
+x = 63, y = 142, cx = 0 cy = 2 add = 34.029404
+ray = -28.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.937500, start = 22
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.843750, start = 23
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.750000, start = 24
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.656250, start = 25
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.562500, start = 26
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.468750, start = 27
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.375000, start = 28
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.281250, start = 29
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.187500, start = 30
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.093750, start = 31
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -27.000000, start = 32
+init = x = 127, y = 176
+x = 63, y = 143, cx = 0 cy = 2 add = 32.609631
+ray = -27.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.906250, start = 33
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.812500, start = 34
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.718750, start = 35
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.625000, start = 36
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.531250, start = 37
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.437500, start = 38
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.343750, start = 39
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.250000, start = 40
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.156250, start = 41
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -26.062500, start = 42
+init = x = 127, y = 176
+x = 63, y = 144, cx = 0 cy = 2 add = 31.214886
+ray = -26.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.968750, start = 43
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.875000, start = 44
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.781250, start = 45
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.687500, start = 46
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.593750, start = 47
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.500000, start = 48
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.406250, start = 49
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.312500, start = 50
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.218750, start = 51
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.125000, start = 52
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -25.031250, start = 53
+init = x = 127, y = 175
+x = 63, y = 145, cx = 0 cy = 2 add = 29.843691
+ray = -25.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.937500, start = 54
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.843750, start = 55
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.750000, start = 56
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.656250, start = 57
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.562500, start = 58
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.468750, start = 59
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.375000, start = 60
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.281250, start = 61
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.187500, start = 62
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.093750, start = 63
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -24.000000, start = 64
+init = x = 127, y = 174
+x = 63, y = 145, cx = 0 cy = 2 add = 28.494637
+ray = -24.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.906250, start = 65
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.812500, start = 66
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.718750, start = 67
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.625000, start = 68
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.531250, start = 69
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.437500, start = 70
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.343750, start = 71
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.250000, start = 72
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.156250, start = 73
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -23.062500, start = 74
+init = x = 127, y = 174
+x = 63, y = 146, cx = 0 cy = 2 add = 27.166388
+ray = -23.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.968750, start = 75
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.875000, start = 76
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.781250, start = 77
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.687500, start = 78
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.593750, start = 79
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.500000, start = 80
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.406250, start = 81
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.312500, start = 82
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.218750, start = 83
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.125000, start = 84
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -22.031250, start = 85
+init = x = 127, y = 173
+x = 63, y = 147, cx = 0 cy = 2 add = 25.857679
+ray = -22.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.937500, start = 86
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.843750, start = 87
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.750000, start = 88
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.656250, start = 89
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.562500, start = 90
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.468750, start = 91
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.375000, start = 92
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.281250, start = 93
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.187500, start = 94
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.093750, start = 95
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -21.000000, start = 96
+init = x = 127, y = 172
+x = 63, y = 147, cx = 0 cy = 2 add = 24.567299
+ray = -21.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.906250, start = 97
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.812500, start = 98
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.718750, start = 99
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.625000, start = 100
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.531250, start = 101
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.437500, start = 102
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.343750, start = 103
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.250000, start = 104
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.156250, start = 105
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -20.062500, start = 106
+init = x = 127, y = 172
+x = 63, y = 148, cx = 0 cy = 2 add = 23.294094
+ray = -20.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.968750, start = 107
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.875000, start = 108
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.781250, start = 109
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.687500, start = 110
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.593750, start = 111
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.500000, start = 112
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.406250, start = 113
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.312500, start = 114
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.218750, start = 115
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.125000, start = 116
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -19.031250, start = 117
+init = x = 127, y = 171
+x = 63, y = 148, cx = 0 cy = 2 add = 22.036966
+ray = -19.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.937500, start = 118
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.843750, start = 119
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.750000, start = 120
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.656250, start = 121
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.562500, start = 122
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.468750, start = 123
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.375000, start = 124
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.281250, start = 125
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.187500, start = 126
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.093750, start = 127
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -18.000000, start = 128
+init = x = 127, y = 170
+x = 63, y = 149, cx = 0 cy = 2 add = 20.794861
+ray = -18.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.906250, start = 129
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.812500, start = 130
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.718750, start = 131
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.625000, start = 132
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.531250, start = 133
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.437500, start = 134
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.343750, start = 135
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.250000, start = 136
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.156250, start = 137
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -17.062500, start = 138
+init = x = 127, y = 170
+x = 63, y = 150, cx = 0 cy = 2 add = 19.566763
+ray = -17.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.968750, start = 139
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.875000, start = 140
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.781250, start = 141
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.687500, start = 142
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.593750, start = 143
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.500000, start = 144
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.406250, start = 145
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.312500, start = 146
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.218750, start = 147
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.125000, start = 148
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -16.031250, start = 149
+init = x = 127, y = 169
+x = 63, y = 150, cx = 0 cy = 2 add = 18.351706
+ray = -16.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.937500, start = 150
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.843750, start = 151
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.750000, start = 152
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.656250, start = 153
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.562500, start = 154
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.468750, start = 155
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.375000, start = 156
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.281250, start = 157
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.187500, start = 158
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.093750, start = 159
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -15.000000, start = 160
+init = x = 127, y = 168
+x = 63, y = 150, cx = 0 cy = 2 add = 17.148748
+ray = -15.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.906250, start = 161
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.812500, start = 162
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.718750, start = 163
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.625000, start = 164
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.531250, start = 165
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.437500, start = 166
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.343750, start = 167
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.250000, start = 168
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.156250, start = 169
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -14.062500, start = 170
+init = x = 127, y = 168
+x = 63, y = 152, cx = 0 cy = 2 add = 15.956992
+ray = -14.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.968750, start = 171
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.875000, start = 172
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.781250, start = 173
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.687500, start = 174
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.593750, start = 175
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.500000, start = 176
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.406250, start = 177
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.312500, start = 178
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.218750, start = 179
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.125000, start = 180
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -13.031250, start = 181
+init = x = 127, y = 167
+x = 63, y = 152, cx = 0 cy = 2 add = 14.775564
+ray = -13.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.937500, start = 182
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.843750, start = 183
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.750000, start = 184
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.656250, start = 185
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.562500, start = 186
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.468750, start = 187
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.375000, start = 188
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.281250, start = 189
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.187500, start = 190
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.093750, start = 191
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -12.000000, start = 192
+init = x = 127, y = 167
+x = 63, y = 153, cx = 0 cy = 2 add = 13.603620
+ray = -12.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.906250, start = 193
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.812500, start = 194
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.718750, start = 195
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.625000, start = 196
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.531250, start = 197
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.437500, start = 198
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.343750, start = 199
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.250000, start = 200
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.156250, start = 201
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -11.062500, start = 202
+init = x = 127, y = 166
+x = 63, y = 153, cx = 0 cy = 2 add = 12.440340
+ray = -11.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.968750, start = 203
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.875000, start = 204
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.781250, start = 205
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.687500, start = 206
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.593750, start = 207
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.500000, start = 208
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.406250, start = 209
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.312500, start = 210
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.218750, start = 211
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.125000, start = 212
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -10.031250, start = 213
+init = x = 127, y = 165
+x = 63, y = 153, cx = 0 cy = 2 add = 11.284926
+ray = -10.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.937500, start = 214
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.843750, start = 215
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.750000, start = 216
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.656250, start = 217
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.562500, start = 218
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.468750, start = 219
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.375000, start = 220
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.281250, start = 221
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.187500, start = 222
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.093750, start = 223
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -9.000000, start = 224
+init = x = 127, y = 165
+x = 63, y = 154, cx = 0 cy = 2 add = 10.136604
+ray = -9.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.906250, start = 225
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.812500, start = 226
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.718750, start = 227
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.625000, start = 228
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.531250, start = 229
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.437500, start = 230
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.343750, start = 231
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.250000, start = 232
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.156250, start = 233
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -8.062500, start = 234
+init = x = 127, y = 164
+x = 63, y = 155, cx = 0 cy = 2 add = 8.994614
+ray = -8.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.968750, start = 235
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.875000, start = 236
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.781250, start = 237
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.687500, start = 238
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.593750, start = 239
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.500000, start = 240
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.406250, start = 241
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.312500, start = 242
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.218750, start = 243
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.125000, start = 244
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -7.031250, start = 245
+init = x = 127, y = 164
+x = 63, y = 156, cx = 0 cy = 2 add = 7.858212
+ray = -7.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.937500, start = 246
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.843750, start = 247
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.750000, start = 248
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.656250, start = 249
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.562500, start = 250
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.468750, start = 251
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.375000, start = 252
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.281250, start = 253
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.187500, start = 254
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.093750, start = 255
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -6.000000, start = 256
+init = x = 127, y = 163
+x = 63, y = 156, cx = 0 cy = 2 add = 6.726671
+ray = -6.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.906250, start = 257
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.812500, start = 258
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.718750, start = 259
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.625000, start = 260
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.531250, start = 261
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.437500, start = 262
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.343750, start = 263
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.250000, start = 264
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.156250, start = 265
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -5.062500, start = 266
+init = x = 127, y = 162
+x = 63, y = 156, cx = 0 cy = 2 add = 5.599275
+ray = -5.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.968750, start = 267
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.875000, start = 268
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.781250, start = 269
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.687500, start = 270
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.593750, start = 271
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.500000, start = 272
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.406250, start = 273
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.312500, start = 274
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.218750, start = 275
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.125000, start = 276
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -4.031250, start = 277
+init = x = 127, y = 162
+x = 63, y = 157, cx = 0 cy = 2 add = 4.475316
+ray = -4.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.937500, start = 278
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.843750, start = 279
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.750000, start = 280
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.656250, start = 281
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.562500, start = 282
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.468750, start = 283
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.375000, start = 284
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.281250, start = 285
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.187500, start = 286
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.093750, start = 287
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -3.000000, start = 288
+init = x = 127, y = 161
+x = 63, y = 157, cx = 0 cy = 2 add = 3.354098
+ray = -3.000000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.906250, start = 289
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.906250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.812500, start = 290
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.812500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.718750, start = 291
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.718750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.625000, start = 292
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.625000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.531250, start = 293
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.531250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.437500, start = 294
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.437500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.343750, start = 295
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.343750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.250000, start = 296
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.250000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.156250, start = 297
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.156250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -2.062500, start = 298
+init = x = 127, y = 161
+x = 63, y = 158, cx = 0 cy = 2 add = 2.234929
+ray = -2.062500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.968750, start = 299
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.968750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.875000, start = 300
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.875000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.781250, start = 301
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.781250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.687500, start = 302
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.687500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.593750, start = 303
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.593750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.500000, start = 304
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.500000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.406250, start = 305
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.406250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.312500, start = 306
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.312500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.218750, start = 307
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.218750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.125000, start = 308
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.125000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -1.031250, start = 309
+init = x = 127, y = 160
+x = 63, y = 158, cx = 0 cy = 2 add = 1.117124
+ray = -1.031250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.937500, start = 310
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.937500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.843750, start = 311
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.843750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.750000, start = 312
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.750000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.656250, start = 313
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.656250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.562500, start = 314
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.562500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.468750, start = 315
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.468750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.375000, start = 316
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.375000 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.281250, start = 317
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.281250 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.187500, start = 318
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.187500 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = -0.093750, start = 319
+init = x = 127, y = 160
+x = 63, y = 160, cx = 0 cy = 2 add = 0.000000
+ray = -0.093750 proj = 25, dst = 224, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.000000, start = 320
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.000000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.093750, start = 321
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.093750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.187500, start = 322
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.187500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.281250, start = 323
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.281250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.375000, start = 324
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.375000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.468750, start = 325
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.468750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.562500, start = 326
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.562500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.656250, start = 327
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.656250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.750000, start = 328
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.750000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.843750, start = 329
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.843750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 0.937500, start = 330
+init = x = 127, y = 160
+x = 319, y = 160, cx = 4 cy = 2 add = 0.000000
+ray = 0.937500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.031250, start = 331
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.031250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.125000, start = 332
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.125000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.218750, start = 333
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.218750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.312500, start = 334
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.312500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.406250, start = 335
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.406250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.500000, start = 336
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.500000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.593750, start = 337
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.593750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.687500, start = 338
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.687500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.781250, start = 339
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.781250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.875000, start = 340
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.875000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 1.968750, start = 341
+init = x = 127, y = 160
+x = 319, y = 163, cx = 4 cy = 2 add = 1.117124
+ray = 1.968750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.062500, start = 342
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.062500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.156250, start = 343
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.156250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.250000, start = 344
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.250000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.343750, start = 345
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.343750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.437500, start = 346
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.437500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.531250, start = 347
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.531250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.625000, start = 348
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.625000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.718750, start = 349
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.718750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.812500, start = 350
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.812500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 2.906250, start = 351
+init = x = 127, y = 161
+x = 319, y = 167, cx = 4 cy = 2 add = 2.234929
+ray = 2.906250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.000000, start = 352
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.000000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.093750, start = 353
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.093750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.187500, start = 354
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.187500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.281250, start = 355
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.281250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.375000, start = 356
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.375000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.468750, start = 357
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.468750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.562500, start = 358
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.562500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.656250, start = 359
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.656250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.750000, start = 360
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.750000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.843750, start = 361
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.843750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 3.937500, start = 362
+init = x = 127, y = 161
+x = 319, y = 170, cx = 4 cy = 2 add = 3.354098
+ray = 3.937500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.031250, start = 363
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.031250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.125000, start = 364
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.125000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.218750, start = 365
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.218750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.312500, start = 366
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.312500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.406250, start = 367
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.406250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.500000, start = 368
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.500000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.593750, start = 369
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.593750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.687500, start = 370
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.687500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.781250, start = 371
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.781250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.875000, start = 372
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.875000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 4.968750, start = 373
+init = x = 127, y = 162
+x = 319, y = 174, cx = 4 cy = 2 add = 4.475316
+ray = 4.968750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.062500, start = 374
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.062500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.156250, start = 375
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.156250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.250000, start = 376
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.250000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.343750, start = 377
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.343750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.437500, start = 378
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.437500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.531250, start = 379
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.531250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.625000, start = 380
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.625000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.718750, start = 381
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.718750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.812500, start = 382
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.812500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 5.906250, start = 383
+init = x = 127, y = 162
+x = 319, y = 177, cx = 4 cy = 2 add = 5.599275
+ray = 5.906250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.000000, start = 384
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.000000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.093750, start = 385
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.093750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.187500, start = 386
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.187500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.281250, start = 387
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.281250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.375000, start = 388
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.375000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.468750, start = 389
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.468750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.562500, start = 390
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.562500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.656250, start = 391
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.656250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.750000, start = 392
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.750000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.843750, start = 393
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.843750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 6.937500, start = 394
+init = x = 127, y = 163
+x = 319, y = 181, cx = 4 cy = 2 add = 6.726671
+ray = 6.937500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.031250, start = 395
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.031250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.125000, start = 396
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.125000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.218750, start = 397
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.218750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.312500, start = 398
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.312500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.406250, start = 399
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.406250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.500000, start = 400
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.500000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.593750, start = 401
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.593750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.687500, start = 402
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.687500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.781250, start = 403
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.781250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.875000, start = 404
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.875000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 7.968750, start = 405
+init = x = 127, y = 164
+x = 319, y = 185, cx = 4 cy = 2 add = 7.858212
+ray = 7.968750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.062500, start = 406
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.062500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.156250, start = 407
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.156250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.250000, start = 408
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.250000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.343750, start = 409
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.343750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.437500, start = 410
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.437500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.531250, start = 411
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.531250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.625000, start = 412
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.625000 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.718750, start = 413
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.718750 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.812500, start = 414
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.812500 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 8.906250, start = 415
+init = x = 127, y = 164
+x = 319, y = 188, cx = 4 cy = 2 add = 8.994614
+ray = 8.906250 proj = 25, dst = 222, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.000000, start = 416
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.000000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.093750, start = 417
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.093750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.187500, start = 418
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.187500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.281250, start = 419
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.281250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.375000, start = 420
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.375000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.468750, start = 421
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.468750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.562500, start = 422
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.562500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.656250, start = 423
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.656250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.750000, start = 424
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.750000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.843750, start = 425
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.843750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 9.937500, start = 426
+init = x = 127, y = 165
+x = 319, y = 195, cx = 4 cy = 3 add = 10.136604
+ray = 9.937500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.031250, start = 427
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.031250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.125000, start = 428
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.125000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.218750, start = 429
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.218750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.312500, start = 430
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.312500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.406250, start = 431
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.406250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.500000, start = 432
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.500000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.593750, start = 433
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.593750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.687500, start = 434
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.687500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.781250, start = 435
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.781250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.875000, start = 436
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.875000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 10.968750, start = 437
+init = x = 127, y = 165
+x = 319, y = 198, cx = 4 cy = 3 add = 11.284926
+ray = 10.968750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.062500, start = 438
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.062500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.156250, start = 439
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.156250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.250000, start = 440
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.250000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.343750, start = 441
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.343750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.437500, start = 442
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.437500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.531250, start = 443
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.531250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.625000, start = 444
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.625000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.718750, start = 445
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.718750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.812500, start = 446
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.812500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 11.906250, start = 447
+init = x = 127, y = 166
+x = 319, y = 202, cx = 4 cy = 3 add = 12.440340
+ray = 11.906250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.000000, start = 448
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.000000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.093750, start = 449
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.093750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.187500, start = 450
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.187500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.281250, start = 451
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.281250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.375000, start = 452
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.375000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.468750, start = 453
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.468750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.562500, start = 454
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.562500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.656250, start = 455
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.656250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.750000, start = 456
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.750000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.843750, start = 457
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.843750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 12.937500, start = 458
+init = x = 127, y = 167
+x = 319, y = 206, cx = 4 cy = 3 add = 13.603620
+ray = 12.937500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.031250, start = 459
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.031250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.125000, start = 460
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.125000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.218750, start = 461
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.218750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.312500, start = 462
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.312500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.406250, start = 463
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.406250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.500000, start = 464
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.500000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.593750, start = 465
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.593750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.687500, start = 466
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.687500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.781250, start = 467
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.781250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.875000, start = 468
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.875000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 13.968750, start = 469
+init = x = 127, y = 167
+x = 319, y = 209, cx = 4 cy = 3 add = 14.775564
+ray = 13.968750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.062500, start = 470
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.062500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.156250, start = 471
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.156250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.250000, start = 472
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.250000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.343750, start = 473
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.343750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.437500, start = 474
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.437500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.531250, start = 475
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.531250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.625000, start = 476
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.625000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.718750, start = 477
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.718750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.812500, start = 478
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.812500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 14.906250, start = 479
+init = x = 127, y = 168
+x = 319, y = 213, cx = 4 cy = 3 add = 15.956992
+ray = 14.906250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.000000, start = 480
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.000000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.093750, start = 481
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.093750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.187500, start = 482
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.187500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.281250, start = 483
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.281250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.375000, start = 484
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.375000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.468750, start = 485
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.468750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.562500, start = 486
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.562500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.656250, start = 487
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.656250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.750000, start = 488
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.750000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.843750, start = 489
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.843750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 15.937500, start = 490
+init = x = 127, y = 168
+x = 319, y = 219, cx = 4 cy = 3 add = 17.148748
+ray = 15.937500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.031250, start = 491
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.031250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.125000, start = 492
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.125000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.218750, start = 493
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.218750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.312500, start = 494
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.312500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.406250, start = 495
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.406250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.500000, start = 496
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.500000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.593750, start = 497
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.593750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.687500, start = 498
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.687500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.781250, start = 499
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.781250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.875000, start = 500
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.875000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 16.968750, start = 501
+init = x = 127, y = 169
+x = 319, y = 223, cx = 4 cy = 3 add = 18.351706
+ray = 16.968750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.062500, start = 502
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.062500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.156250, start = 503
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.156250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.250000, start = 504
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.250000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.343750, start = 505
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.343750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.437500, start = 506
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.437500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.531250, start = 507
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.531250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.625000, start = 508
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.625000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.718750, start = 509
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.718750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.812500, start = 510
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.812500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 17.906250, start = 511
+init = x = 127, y = 170
+x = 319, y = 227, cx = 4 cy = 3 add = 19.566763
+ray = 17.906250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.000000, start = 512
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.000000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.093750, start = 513
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.093750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.187500, start = 514
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.187500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.281250, start = 515
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.281250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.375000, start = 516
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.375000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.468750, start = 517
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.468750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.562500, start = 518
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.562500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.656250, start = 519
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.656250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.750000, start = 520
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.750000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.843750, start = 521
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.843750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 18.937500, start = 522
+init = x = 127, y = 170
+x = 319, y = 230, cx = 4 cy = 3 add = 20.794861
+ray = 18.937500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.031250, start = 523
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.031250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.125000, start = 524
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.125000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.218750, start = 525
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.218750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.312500, start = 526
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.312500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.406250, start = 527
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.406250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.500000, start = 528
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.500000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.593750, start = 529
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.593750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.687500, start = 530
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.687500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.781250, start = 531
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.781250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.875000, start = 532
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.875000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 19.968750, start = 533
+init = x = 127, y = 171
+x = 319, y = 237, cx = 4 cy = 3 add = 22.036966
+ray = 19.968750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.062500, start = 534
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.062500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.156250, start = 535
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.156250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.250000, start = 536
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.250000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.343750, start = 537
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.343750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.437500, start = 538
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.437500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.531250, start = 539
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.531250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.625000, start = 540
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.625000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.718750, start = 541
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.718750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.812500, start = 542
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.812500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 20.906250, start = 543
+init = x = 127, y = 172
+x = 319, y = 241, cx = 4 cy = 3 add = 23.294094
+ray = 20.906250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.000000, start = 544
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.000000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.093750, start = 545
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.093750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.187500, start = 546
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.187500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.281250, start = 547
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.281250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.375000, start = 548
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.375000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.468750, start = 549
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.468750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.562500, start = 550
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.562500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.656250, start = 551
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.656250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.750000, start = 552
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.750000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.843750, start = 553
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.843750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 21.937500, start = 554
+init = x = 127, y = 172
+x = 319, y = 244, cx = 4 cy = 3 add = 24.567299
+ray = 21.937500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.031250, start = 555
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.031250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.125000, start = 556
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.125000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.218750, start = 557
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.218750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.312500, start = 558
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.312500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.406250, start = 559
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.406250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.500000, start = 560
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.500000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.593750, start = 561
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.593750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.687500, start = 562
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.687500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.781250, start = 563
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.781250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.875000, start = 564
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.875000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 22.968750, start = 565
+init = x = 127, y = 173
+x = 319, y = 248, cx = 4 cy = 3 add = 25.857679
+ray = 22.968750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.062500, start = 566
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.062500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.156250, start = 567
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.156250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.250000, start = 568
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.250000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.343750, start = 569
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.343750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.437500, start = 570
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.437500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.531250, start = 571
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.531250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.625000, start = 572
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.625000 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.718750, start = 573
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.718750 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.812500, start = 574
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.812500 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 23.906250, start = 575
+init = x = 127, y = 174
+x = 319, y = 255, cx = 4 cy = 3 add = 27.166388
+ray = 23.906250 proj = 25, dst = 221, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.000000, start = 576
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.000000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.093750, start = 577
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.093750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.187500, start = 578
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.187500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.281250, start = 579
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.281250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.375000, start = 580
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.375000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.468750, start = 581
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.468750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.562500, start = 582
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.562500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.656250, start = 583
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.656250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.750000, start = 584
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.750000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.843750, start = 585
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.843750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 24.937500, start = 586
+init = x = 127, y = 174
+x = 319, y = 258, cx = 4 cy = 4 add = 28.494637
+ray = 24.937500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.031250, start = 587
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.031250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.125000, start = 588
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.125000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.218750, start = 589
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.218750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.312500, start = 590
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.312500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.406250, start = 591
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.406250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.500000, start = 592
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.500000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.593750, start = 593
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.593750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.687500, start = 594
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.687500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.781250, start = 595
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.781250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.875000, start = 596
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.875000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 25.968750, start = 597
+init = x = 127, y = 175
+x = 319, y = 262, cx = 4 cy = 4 add = 29.843691
+ray = 25.968750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.062500, start = 598
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.062500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.156250, start = 599
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.156250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.250000, start = 600
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.250000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.343750, start = 601
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.343750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.437500, start = 602
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.437500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.531250, start = 603
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.531250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.625000, start = 604
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.625000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.718750, start = 605
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.718750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.812500, start = 606
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.812500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 26.906250, start = 607
+init = x = 127, y = 176
+x = 319, y = 269, cx = 4 cy = 4 add = 31.214886
+ray = 26.906250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.000000, start = 608
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.000000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.093750, start = 609
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.093750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.187500, start = 610
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.187500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.281250, start = 611
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.281250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.375000, start = 612
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.375000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.468750, start = 613
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.468750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.562500, start = 614
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.562500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.656250, start = 615
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.656250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.750000, start = 616
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.750000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.843750, start = 617
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.843750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 27.937500, start = 618
+init = x = 127, y = 176
+x = 319, y = 272, cx = 4 cy = 4 add = 32.609631
+ray = 27.937500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 28.031250, start = 619
+init = x = 127, y = 177
+x = 319, y = 279, cx = 4 cy = 4 add = 34.029404
+ray = 28.031250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 28.125000, start = 620
+init = x = 127, y = 177
+x = 319, y = 279, cx = 4 cy = 4 add = 34.029404
+ray = 28.125000 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 28.218750, start = 621
+init = x = 127, y = 177
+x = 319, y = 279, cx = 4 cy = 4 add = 34.029404
+ray = 28.218750 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 28.312500, start = 622
+init = x = 127, y = 177
+x = 319, y = 279, cx = 4 cy = 4 add = 34.029404
+ray = 28.312500 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 28.406250, start = 623
+init = x = 127, y = 177
+x = 319, y = 279, cx = 4 cy = 4 add = 34.029404
+ray = 28.406250 proj = 25, dst = 220, fech = 0.115523,  set->lengh_plane = 554
+start = 212,end = 188
+
+
+ray = 28.500000, start = 624
+init = x = 127, y = 177
+x = 319, y = 279, cx = 4 cy = 4 add = 34.029404
+ray = 28.50000

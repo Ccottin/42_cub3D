@@ -59,15 +59,15 @@ char	**map_init(void)
 
 	if (!(map = ft_calloc(sizeof(char*) * 6)))
 		return (NULL);
-	if (!(map[0] = ft_strdup("111111")))
+	if (!(map[0] = ft_strdup("1111111111")))
 		return (NULL);
-	if (!(map[1] = ft_strdup("100011")))
+	if (!(map[1] = ft_strdup("1000000001")))
 		return (NULL);
-	if (!(map[2] = ft_strdup("10P001")))
+	if (!(map[2] = ft_strdup("1000000001")))
 		return (NULL);
-	if (!(map[3] = ft_strdup("100001")))
+	if (!(map[3] = ft_strdup("1000000001")))
 		return (NULL);
-	if (!(map[4] = ft_strdup("111111")))
+	if (!(map[4] = ft_strdup("1111111111")))
 		return (NULL);
 	return (map);
 }
