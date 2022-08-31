@@ -1,5 +1,6 @@
-#ifndef TEST_H
-# define TEST_H
+
+#ifndef OLDTEST_H
+# define OLDTEST_H
 
 # include <math.h>
 # include <mlx.h>
@@ -17,17 +18,15 @@ typedef struct s_img {
 typedef struct s_map {
 	t_img	img;
 	char	**map;
-	int	casex;
-	int	casey;
-	double	playerx;
-	double	playery;
-	int	dirplayerx;
-	int	dirplayery;
-	double	planex;
-	double	planey;
-	double	camerax;
-	double	raydirx;
-	double	raydiry;
+	int	case_x;
+	int	case_y;
+	int	player_x;
+	int	player_y;
+	int	dirx;
+	int	diry;
+	int	planex;
+	int	planey;
+	int	fov;
 	int	dist_plane;
 	int	screen_l;
 	int	screen_w;

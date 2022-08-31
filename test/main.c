@@ -1,120 +1,143 @@
 #include "test.h"
-/*marchpo
-		if (set->dirx < 0)
-			px = (set->player_x - (cx * set->wall_size)) * add;
-		else
-			px = ((cx * set->wall_size) + set->wall_size - set->player_x);
-		if (set->dirx < 0)
-			px = (set->player_x - (cy * set->wall_size)) * add;
-		else
-			py = ((cx * set->wall_size) + set->wall_size - set->player_x);
-*/
 
-void	find_wall_h(t_map *set, float ray, int *x, int *y)
+int	search_wall(t_map *set, double *distx, double *disty)
 {
-	int	cx;
-	int	cy;
-	int	px;
-	int	py;
-	float	add;
+	double	addx;
+	double	addy;
+	int	dirx;
+	int	diry;
+	int	wall;
+	int	side;
 
-	cx = set->case_x;
-	cy = set->case_y;
-	if (set->dirx < 0)
-		px = cx * set->wall_size - 1;
+	set->casex = (int)set->playerx;
+	set->casey = (int)set->playery;
+	wall = 0;
+	if (set->raydirx == 0.00)
+		addx = 1 / 2147483647;
 	else
-		px = cx * set->wall_size + set->wall_size;
-	py = set->player_y + (set->player_x - px) * tan(abs(ray) * M_PI / 180);
-	cx = px / set->wall_size;
-	cy = py / set->wall_size;
-	if (tan(abs(ray) * M_PI / 180) == 0.0)
-		add = 0;
+		addx = fabs(1 / set->raydirx);
+	if (set->raydiry == 0.00)
+		addy = 1/ 2147483647;
 	else
-		add = (float)set->wall_size * tan(abs(ray) * M_PI / 180);
-	printf("init = x = %d, y = %d\n", px, py);
-	while (set->map[cx][cy] && set->map[cx][cy] != '1')
+		addy = fabs(1 / set->raydiry);
+	if (set->raydirx < 0)
 	{
-		if (ray < 0) //pas sure de cette dinguerie
+		dirx = -1;
+		*distx = (set->playerx - set->casex) * addx;
+	}
+	else
+	{
+		dirx = 1;
+		*distx = (set->casex + 1.0 - set->playerx) * addx;
+	}
+	if (set->raydiry < 0)
+	{
+		diry = -1;
+		*disty = (set->playery - set->casey) * addy;
+	}
+	else
+	{
+		diry = 1;
+		*disty = (set->casey + 1.0 - set->playery) * addy;
+	}
+	printf("init :: disty = %f addy = %f, distx = %f addy = %f\t", *disty, addy, *distx, addx);
+	while (wall == 0)
+	{
+		if (*distx < *disty)
 		{
-			px = px + set->wall_size;
-			py = py - add;
+			*distx += addx;
+			side = 1;
+			set->casex += dirx;
 		}
 		else
 		{
-			px = px + set->wall_size;
-			py = py + add;
+			*disty += addy;
+			side = -1;
+			set->casey += diry;
 		}
-		cx = px / set->wall_size;
-		cy = py / set->wall_size;
+		printf("casex = %d, casey = %d, char = %c\n", set->casex, set->casey, set->map[set->casey][set->casex]);
+		if (set->map[set->casey][set->casex] == '1')
+			wall = 1;
 	}
-//	printf("x = %d, y = %d, cx = %d cy = %d add = %f\n", px, py, cx, cy, add);
-	*x = px;
-	*y = py;
+/*	if (side == 1) //crrige le fisheye mqis pobien compris, si ca vient po on fera un ptit coup de trigo
+		*distx -= addx;
+	else
+		*disty -= addy;*/
+	return (side);
 }
 
-void	get_proj(t_map *set, int dst, int x)
+void	draw_line(t_map *set, double dist, int side, int x)
 {
-	int	proj;
+	int	line;
 	int	start;
 	int	end;
 	int	i;
-	float	fech;
 
-	fech = (float)set->wall_size / (float)set->dist_plane;
-	proj = dst * fech;
-//	printf("ray = %f proj = %d, dst = %d, fech = %f,  set->lengh_plane = %d\n", ray, proj, dst, fech, set->dist_plane);
-	start = set->middle_w + (proj / 2);
-	end = set->middle_w - (proj / 2);
-	i = end;
-	printf("start = %d,end = %d\n", start, end);
-	while (i < start)
+	printf("%d :: dist = %f\n", x, dist);
+	line = ((float)set->screen_w / dist);
+	start = set->middle_w - line / 2;
+	end = set->middle_w + line / 2;
+	if (start < 0)
+		start = 0;
+	if (end > set->screen_w)
+		end = set->screen_w - 1;
+	i = start;
+	if (side == 1)
 	{
-		pixel_to_image(set, x, i, 0x00FF0000);
-		i++;
+		while (i < end)
+		{
+			pixel_to_image(set, x, i, 0x00FF0000);
+			i++;
+		}
+	}
+	else
+	{
+		while (i < end)
+		{
+			pixel_to_image(set, x, i, 0x00FF0001);
+			i++;
+		}
 	}
 }
 
-void	get_img(t_map *set)
+int	get_img(t_map *set)
 {
-	float	ray;
-//	int	pix;
 	int	start;
-	int	x;
-	int	y;
-	int	dst;
+	int	side;
+	double	distx;
+	double	disty;
 
 	start = 0;
-	ray = -(set->fov / 2);
 	while (start < set->screen_l)
 	{
-		find_wall_h(set, ray, &x, &y);
-//		find_wall_v(set, start, ray);
-//		draw_line(set, start);(copié de l ancien)
-		printf("x = %d y = %d", x, y);
-		dst = sqrt((x - set->player_x) * (x - set->player_x)
-			+ (y - set->player_y) * (y - set->player_y));
-		get_proj(set, dst, start);
-		ray += (float)set->fov/(float)set->screen_l;
+		printf("%d ::", start);
+		set->camerax = 2 * start / (double)set->screen_l - 1;	
+		set->raydirx = set->dirplayerx + set->planex * set->camerax;
+		set->raydiry = set->dirplayery + set->planey * set->camerax;
+		printf("rayx = %f, rayy = %f ; ", set->raydirx, set->raydiry);
+		side = search_wall(set, &distx, &disty);
+	//	if (side == 1)
+	//		draw_line(set, distx, side, start);
+	//	else
+	//		draw_line(set, disty, side, start);
 		start++;
-	//	printf("ray = %f, start = %d\n", ray, start);
 	}
+	return (side);
 }
 
 void	set_struct(t_map *set)
 {
-	set->case_x = 1;
-	set->case_y = 1;
-	set->dirx = 1;
-	set->diry = 1;
-	set->wall_size = 64;	
-	set->player_x = set->case_x * set->wall_size + (set->wall_size / 2);
-	set->player_y = set->case_y * set->wall_size + (set->wall_size / 2);
-	set->fov = 60;
-	set->screen_l = 640;
-	set->screen_w = 400;
+	set->playerx = 1;
+	set->playery = 1;
+	set->dirplayerx = 0;
+	set->dirplayery = 0;
+	set->planex = 0;
+	set->planey = 0.6;
+	set->wall_size = 64;
+	set->screen_l = 860;
+	set->screen_w = 600;
 	set->middle_l = set->screen_l / 2;
 	set->middle_w = set->screen_w / 2;
-	set->dist_plane = (set->screen_l / 2) / tan((set->fov / 2) * M_PI / 180);
 }
 
 int	main(void)
