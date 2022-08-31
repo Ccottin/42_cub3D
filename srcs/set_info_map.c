@@ -12,12 +12,12 @@ int	get_new_map(t_data *data, int i)
 	while (data->map.map[size]
 		&& is_char_map(data->map.map[size][0]))
 		size++;
-	new = ft_calloc(sizeof(char *) * (size - i + 2));
+	new = ft_calloc(sizeof(char *) * (size - i + 3));
 	if (!new)
 		return (-1);
 	size = 0;
 	while (data->map.map[i]
-		&& size < data->map.map_size)
+		&& is_char_map(data->map.map[i][0]))
 	{
 		new[size++] = ft_strdup(data->map.map[i++]);
 		if (!new[size - 1])
@@ -82,7 +82,7 @@ int	check_all_y(char **map)
 	{
 		if (ft_strlen(map[y]) > x && map[y][x] != ' ')
 		{
-			if (map[y][x] == '1' && ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
+			if (map[y][x] == '1' && map[y + 1] && ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
 			{
 				while (map[y] && ft_strlen(map[y]) > x && (is_char_map(map[y][x]) == 1 || is_char_acter(map[y][x]) == 1))
 					y++;

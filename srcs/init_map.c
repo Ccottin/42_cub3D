@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:21:42 by ccottin           #+#    #+#             */
-/*   Updated: 2022/08/04 19:07:02 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/08/31 16:10:07 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -157,6 +157,7 @@ int	malloc_gm_init(t_data *data, char **buffer, char *av)
 		free(*buffer);
 		return (-1);
 	}
+	m_size++;
 	data->map.map = ft_calloc((m_size + 2) * sizeof(char *));
 	if (!data->map.map)
 	{
