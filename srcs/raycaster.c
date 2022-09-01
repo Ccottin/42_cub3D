@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/01 23:19:49 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/01 23:44:51 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,16 +46,19 @@ void	set_search(t_data *data, double *distx, double *disty, int *wall)
 	data->caster.casex = (int)data->caster.playerx; //a voir ou on le met en fonction des calculs du mvt ptet chq debut de loop sufit
 	data->caster.casey = (int)data->caster.playery;
 	if (data->caster.raydirx == 0.00)
-		data->caster.addx = 1 / 2147483647;
+		data->caster.addx = 1 / 0.0000001;
 	else
 		data->caster.addx = fabs(1 / data->caster.raydirx);
+//		data->caster.addx = sqrt(1 + (data->caster.raydiry * data->caster.raydiry) / (data->caster.raydirx * data->caster.raydirx));
+//		ca on le comprend c pythagore mais apres ca cree du fisheye
 	if (data->caster.raydiry == 0.00)
-		data->caster.addy = 1/ 2147483647;
+		data->caster.addy = 1/ 0.0000001;
 	else
 		data->caster.addy = fabs(1 / data->caster.raydiry);
+//		data->caster.addy = sqrt(1 + (data->caster.raydirx * data->caster.raydirx) / (data->caster.raydiry * data->caster.raydiry));
 	get_dist(data, distx, disty);
 }
-//regler le soucis de la ligne au debut
+
 void	search_wall(t_data *data, double *distx, double *disty)
 {
 	int	wall;
@@ -86,12 +89,12 @@ void	search_wall(t_data *data, double *distx, double *disty)
 
 void	draw_line(t_data *data, double dist, int x)
 {
-	int	line;
+	float	line;
 	int	start;
 	int	end;
 	int	i;
 
-	line = ((float)data->caster.screen_w / dist);
+	line = ((float)data->caster.screen_w / dist); //on peut le laisser en float?
 	start = data->caster.middle_w - line / 2;
 	end = data->caster.middle_w + line / 2;
 	if (start < 0)
@@ -117,6 +120,20 @@ void	draw_line(t_data *data, double dist, int x)
 	}
 }
 
+int	set_texture(t_data *data, int x)
+{
+	void	*img;
+	int	text;
+	int	t_w;
+	int	t_h;
+	
+	img = mlx_xpm_file_to_image(mlx, "../wall.xpm", &t_w, &t_h);
+	data->caster.wallhit -= (int)data->caster.wallhit;
+	text = int(data->caster.wallhit * (double)t_w);
+	
+	return (0);
+}
+
 int	get_img(t_data *data)
 {
 	int	start;
@@ -135,11 +152,17 @@ int	get_img(t_data *data)
 		data->caster.raydiry = data->caster.dirplayery
 			+ data->caster.planey * data->caster.camerax;
 		search_wall(data, &distx, &disty);
-		printf("%d :: distx = %f, disty = %f\n", start, distx, disty);
 		if (data->caster.side == 1)
-			draw_line(data, distx, start);
+		{
+			data->caster.wallhit = data->caster.playerx + distx * data->caster.raydirx;
+		//	draw_line(data, distx, start);
+		}
 		else
-			draw_line(data, disty, start);
+		{
+			data->caster.wallhit = data->caster.playery + disty * data->caster.raydiry;
+		//	draw_line(data, disty, start);
+		}
+		set_texture(data, start);
 		set_null_caster(data);
 		start++;
 	}
