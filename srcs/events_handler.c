@@ -2,8 +2,8 @@
 
 int	keyboard(int keycode, t_data *data)
 {
-	(void)data;
-	if (keycode == 65362)
+	printf("key:%d\n", keycode);
+	if (keycode == 65361)
 		return (key_left(data));
 	else if (keycode == 65363)
 		return (key_right(data));
@@ -11,9 +11,9 @@ int	keyboard(int keycode, t_data *data)
 		return (move_forward(data));
 	else if (keycode == 97)
 		return (move_left(data));
-	else if (keycode == 115)
-		return (move_right(data));
 	else if (keycode == 100)
+		return (move_right(data));
+	else if (keycode == 115)
 		return (move_backward(data));
 	else if (keycode == 65307)
 	{
