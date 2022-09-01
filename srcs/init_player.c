@@ -4,7 +4,7 @@ int	set_dir(t_data *data, char player_dir)
 {
 	if (player_dir == 'N')
 	{
-		data->caster.dirplayerx = 0;
+		data->caster.dirplayerx = 1;
 		data->caster.dirplayery = -1;
 	}
 	if (player_dir == 'S')
@@ -42,5 +42,5 @@ int	init_player(t_data *data)
 	}
 	data->caster.playerx = x;
 	data->caster.playery = y;
-	return (set_dir(data));
+	return (set_dir(data, data->map.map[y][x]));
 }

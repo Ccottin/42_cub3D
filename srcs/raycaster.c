@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/01 19:34:08 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/01 19:52:04 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -152,6 +152,7 @@ int	raycaster(t_data *data)
 	if (get_img(data))
 		return (-1);
 	mlx_put_image_to_window(data->win.mlx, data->win.win, data->img0.img, 0, 0);
+	events_handler(data);
 	mlx_loop(data->win.mlx);
 	return (0);
 }
