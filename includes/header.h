@@ -7,6 +7,7 @@
 # include <mlx.h>
 # include <stdlib.h>
 # include <errno.h>
+# include <math.h>
 
 typedef struct s_win {
 	void	*mlx;
@@ -14,6 +15,14 @@ typedef struct s_win {
 	int		width;
 	int		height;
 	}	t_win;
+
+typedef struct s_img {
+	void	*img;
+	char	*addr;
+	int	bpx;
+	int	line_length;
+	int	endian;
+	}	t_img;
 
 typedef struct s_color {
 	int	red;
@@ -26,6 +35,29 @@ typedef struct	s_player {
 	int	player_y;
 	char	player_facing;
 	} t_player;
+//penser a merge les infos du player dans le t_caster
+
+typedef struct s_caster {
+	int	casex;
+	int	casey;
+	double	playerx;
+	double	playery;
+	int	dirplayerx;
+	int	dirplayery;
+	double	planex;
+	double	planey;
+	double	camerax;
+	double	raydirx;
+	double	raydiry;
+	int	screen_l;
+	int	screen_w;
+	int	middle_l;
+	int	middle_w;
+	int	dirx;
+	int	diry;
+	int	addx;
+	int	addy;
+	}	t_caster;
 
 typedef struct s_map {
 	char	**map;
@@ -44,9 +76,13 @@ typedef struct s_map {
 typedef struct s_data {
 	t_map	map;
 	t_win	win;
+	t_img	img0;
+	t_img	img1;
+	t_caster	caster;
 	}	t_data;
 
 char	*ft_strdup(char *s);
+void	*ft_calloc(size_t nmem);
 int	events_handler(t_data *data);
 int	key_right(t_data *data);
 int	key_left(t_data *data);
@@ -65,10 +101,13 @@ int	all_info_set(t_data *data);
 int	get_info_wall_0(t_data *data, char *str, int i, char c);
 int	get_info_wall_1(t_data *data, char *str, int i, char c);
 int	get_info_wall(t_data *data, char *str, int i);
+int	init_mlx(t_data *data);
+int	init_img(t_img *img, t_data *data);
 void	free_map(t_data *data);
 void	free_all(t_data *data);
 void	ft_return(int ret, t_data *data);
 void	set_null(t_data *data);
-void	*ft_calloc(size_t nmem);
+void	pixel_to_image(t_map *set, int x, int y, int color);
+void	set_caster(t_data *data);
 
 #endif
