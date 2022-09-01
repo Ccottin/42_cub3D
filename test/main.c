@@ -59,10 +59,10 @@ int	search_wall(t_map *set, double *distx, double *disty)
 		if (set->map[set->casey][set->casex] == '1')
 			wall = 1;
 	}
-/*	if (side == 1) //crrige le fisheye mqis pobien compris, si ca vient po on fera un ptit coup de trigo
+	if (side == 1)
 		*distx -= addx;
 	else
-		*disty -= addy;*/
+		*disty -= addy;
 	return (side);
 }
 
@@ -94,7 +94,7 @@ void	draw_line(t_map *set, double dist, int side, int x)
 	{
 		while (i < end)
 		{
-			pixel_to_image(set, x, i, 0x00FF0001);
+			pixel_to_image(set, x, i, 0x00FF00FF);
 			i++;
 		}
 	}
@@ -116,10 +116,10 @@ int	get_img(t_map *set)
 		set->raydiry = set->dirplayery + set->planey * set->camerax;
 		printf("rayx = %f, rayy = %f ; ", set->raydirx, set->raydiry);
 		side = search_wall(set, &distx, &disty);
-	//	if (side == 1)
-	//		draw_line(set, distx, side, start);
-	//	else
-	//		draw_line(set, disty, side, start);
+		if (side == 1)
+			draw_line(set, distx, side, start);
+		else
+			draw_line(set, disty, side, start);
 		start++;
 	}
 	return (side);
@@ -127,9 +127,9 @@ int	get_img(t_map *set)
 
 void	set_struct(t_map *set)
 {
-	set->playerx = 1;
-	set->playery = 1;
-	set->dirplayerx = 0;
+	set->playerx = 2;
+	set->playery = 2;
+	set->dirplayerx = -1;
 	set->dirplayery = 0;
 	set->planex = 0;
 	set->planey = 0.6;
