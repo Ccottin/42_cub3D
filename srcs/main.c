@@ -32,7 +32,7 @@ int	main(int ac, char **av)
 	ft_SHOW_US_WHAT_YOU_GOT(&data);
 	if (ret)
 		ft_return(ret, &data);
-	ret = raycaster(&dta);
+	ret = raycaster(&data);
 	if (ret)
 		ft_return(ret, &data);
 	free_all(&data);

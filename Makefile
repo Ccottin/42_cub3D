@@ -12,7 +12,7 @@
 
 NAME	= cub3D
 
-SRCS	= srcs/init_map.c srcs/utils.c srcs/init.c srcs/ft_return.c srcs/main.c srcs/set_info.c srcs/get_info_wall.c srcs/utils1.c srcs/set_info_map.c srcs/events_handler.c srcs/key_handler.c
+SRCS	= srcs/init_map.c srcs/utils.c srcs/init.c srcs/ft_return.c srcs/main.c srcs/set_info.c srcs/get_info_wall.c srcs/utils1.c srcs/set_info_map.c srcs/raycaster.c srcs/events_handler.c srcs/key_handler.c
 
 SRCSDIR	= srcs
 
