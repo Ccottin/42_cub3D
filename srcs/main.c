@@ -24,6 +24,10 @@ int	main(int ac, char **av)
 	if (ac != 2)
 		ft_return(1, &data);
 	ret = init_map(av[1], &data);
+	data.win.mlx = mlx_init();
+	data.win.win = mlx_new_window(data.win.mlx, 300, 300 , "slt");
+	events_handler(&data);
+	mlx_loop(data.win.mlx);
 //	printf("ret = %d\n", ret);
 	ft_SHOW_US_WHAT_YOU_GOT(&data);
 	if (ret)
