@@ -154,6 +154,7 @@ int	raycaster(t_data *data)
 	if (get_img(data))
 		return (-1);
 	mlx_put_image_to_window(data->win.mlx, data->win.win, data->img0.img, 0, 0);
+	events_handler(data);
 	mlx_loop(data->win.mlx);
 	return (0);
 }
