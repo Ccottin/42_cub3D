@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/01 19:34:08 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/01 21:00:54 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	get_dist(t_data *data, double *distx, double *disty)
 void	set_search(t_data *data, double *distx, double *disty, int *wall)
 {
 	*wall = 0;	
-	data->caster.casex = (int)data->caster.playerx;
+	data->caster.casex = (int)data->caster.playerx; //a voir ou on le met en fonction des calculs du mvt ptet chq debut de loop sufit
 	data->caster.casey = (int)data->caster.playery;
 	if (data->caster.raydirx == 0.00)
 		data->caster.addx = 1 / 2147483647;
@@ -55,7 +55,7 @@ void	set_search(t_data *data, double *distx, double *disty, int *wall)
 		data->caster.addy = fabs(1 / data->caster.raydiry);
 	get_dist(data, distx, disty);
 }
-
+//regler le soucis de la ligne au debut
 void	search_wall(t_data *data, double *distx, double *disty)
 {
 	int	wall;
@@ -111,7 +111,7 @@ void	draw_line(t_data *data, double dist, int x)
 	{
 		while (i < end)
 		{
-			pixel_to_image(data, x, i, 0x00FF00FF);
+			pixel_to_image(data, x, i, 0xF0FF00FF);
 			i++;
 		}
 	}
@@ -135,10 +135,12 @@ int	get_img(t_data *data)
 		data->caster.raydiry = data->caster.dirplayery
 			+ data->caster.planey * data->caster.camerax;
 		search_wall(data, &distx, &disty);
+		printf("%d :: distx = %f, disty = %f\n", start, distx, disty);
 		if (data->caster.side == 1)
 			draw_line(data, distx, start);
 		else
 			draw_line(data, disty, start);
+		set_null_caster(data);
 		start++;
 	}
 	return (0);

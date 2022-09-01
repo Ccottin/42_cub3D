@@ -53,10 +53,10 @@ typedef struct s_caster {
 	int	screen_w;
 	int	middle_l;
 	int	middle_w;
-	int	dirx;
-	int	diry;
-	int	addx;
-	int	addy;
+	double	dirx;
+	double	diry;
+	double	addx;
+	double	addy;
 	int	side;
 	}	t_caster;
 
@@ -112,5 +112,6 @@ void	ft_return(int ret, t_data *data);
 void	set_null(t_data *data);
 void	pixel_to_image(t_data *data, int x, int y, int color);
 void	set_caster(t_data *data);
+void	set_null_caster(t_data *data);
 
 #endif
