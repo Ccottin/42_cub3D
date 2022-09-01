@@ -57,6 +57,7 @@ typedef struct s_caster {
 	int	diry;
 	int	addx;
 	int	addy;
+	int	side;
 	}	t_caster;
 
 typedef struct s_map {
@@ -96,11 +97,12 @@ int	get_info_wall_1(t_data *data, char *str, int i, char c);
 int	get_info_wall(t_data *data, char *str, int i);
 int	init_mlx(t_data *data);
 int	init_img(t_img *img, t_data *data);
+int	raycaster(t_data *data);
 void	free_map(t_data *data);
 void	free_all(t_data *data);
 void	ft_return(int ret, t_data *data);
 void	set_null(t_data *data);
-void	pixel_to_image(t_map *set, int x, int y, int color);
+void	pixel_to_image(t_data *data, int x, int y, int color);
 void	set_caster(t_data *data);
 
 #endif
