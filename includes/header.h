@@ -29,13 +29,12 @@ typedef struct s_color {
 	int	green;
 	int	blue;
 	}	t_color;
-
+//supprimer la struc player et le morceau de code
 typedef struct	s_player {
 	int	player_x;
 	int	player_y;
 	char	player_facing;
 	} t_player;
-//penser a merge les infos du player dans le t_caster
 
 typedef struct s_caster {
 	int	casex;
@@ -57,6 +56,7 @@ typedef struct s_caster {
 	double	diry;
 	double	addx;
 	double	addy;
+	double	wallhit;
 	int	side;
 	}	t_caster;
 
