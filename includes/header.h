@@ -83,6 +83,13 @@ typedef struct s_data {
 
 char	*ft_strdup(char *s);
 void	*ft_calloc(size_t nmem);
+int	events_handler(t_data *data);
+int	key_right(t_data *data);
+int	key_left(t_data *data);
+int	move_forward(t_data *data);
+int	move_left(t_data *data);
+int	move_right(t_data *data);
+int	move_backward(t_data *data);
 int	detach_map(t_data *data);
 int	ft_strlen(char *str);
 int	is_char_map(char c);
