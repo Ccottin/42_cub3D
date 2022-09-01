@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 10:13:19 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/01 19:47:14 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/01 21:23:57 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 void	set_caster(t_data *data)
 {
 	init_player(data);
-	data->caster.planex = 0;
-	data->caster.planey = 0.6;
 	data->caster.screen_l = 860;
 	data->caster.screen_w = 600;
 	data->caster.middle_l = data->caster.screen_l / 2;

@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/01 21:00:54 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/01 23:19:49 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -103,7 +103,7 @@ void	draw_line(t_data *data, double dist, int x)
 	{
 		while (i < end)
 		{
-			pixel_to_image(data, x, i, 0x00FF0000);
+			pixel_to_image(data, x, i, 0xFF08F7F0);
 			i++;
 		}
 	}
@@ -111,7 +111,7 @@ void	draw_line(t_data *data, double dist, int x)
 	{
 		while (i < end)
 		{
-			pixel_to_image(data, x, i, 0xF0FF00FF);
+			pixel_to_image(data, x, i, 0xFFFFF01F);
 			i++;
 		}
 	}
