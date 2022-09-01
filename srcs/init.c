@@ -46,6 +46,18 @@ int	init_img(t_img *img, t_data *data)
 	return (0);
 }
 
+void	set_null_caster(t_data *data)
+{
+	data->caster.camerax = 0;
+	data->caster.raydirx = 0;
+	data->caster.raydiry = 0;
+	data->caster.dirx = 0;
+	data->caster.diry = 0;
+	data->caster.addx = 0;
+	data->caster.addy = 0;
+	data->caster.side = 0;
+}
+
 void	set_null(t_data *data)
 {
 	errno = 0;
@@ -62,4 +74,17 @@ void	set_null(t_data *data)
 	data->map.ceiling_color.red = -1;
 	data->map.ceiling_color.green = -1;
 	data->map.ceiling_color.blue = -1;
+	data->caster.dirplayerx = 0;
+	data->caster.dirplayery = 0;
+	data->caster.planex = 0;
+	data->caster.planey = 0;
+	data->caster.casex = 0;
+	data->caster.casey = 0;
+	data->caster.playerx = 0;
+	data->caster.playery = 0;
+	data->caster.dirplayerx = 0;
+	data->caster.dirplayery = 0;
+	data->caster.planex = 0;
+	data->caster.planey = 0;
+	set_null_caster(data);
 }
