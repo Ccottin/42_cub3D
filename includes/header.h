@@ -41,8 +41,8 @@ typedef struct s_caster {
 	int	casey;
 	double	playerx;
 	double	playery;
-	int	dirplayerx;
-	int	dirplayery;
+	double	dirplayerx;
+	double	dirplayery;
 	double	planex;
 	double	planey;
 	double	camerax;

@@ -4,23 +4,35 @@ int	set_dir(t_data *data, char player_dir)
 {
 	if (player_dir == 'N')
 	{
-		data->caster.dirplayerx = 1;
+		data->caster.dirplayerx = 0;
 		data->caster.dirplayery = -1;
+		data->caster.planex = 0.6;
+		data->caster.planey = 0;
+
 	}
 	if (player_dir == 'S')
 	{
 		data->caster.dirplayerx = 0;
 		data->caster.dirplayery = 1;
+		data->caster.planex = 0.6;
+		data->caster.planey = 0;
+
 	}
 	if (player_dir == 'E')
 	{
 		data->caster.dirplayerx = 1;
 		data->caster.dirplayery = 0;
+		data->caster.planex = 0;
+		data->caster.planey = 0.6;
+
 	}
 	if (player_dir == 'O')
 	{
 		data->caster.dirplayerx = -1;
 		data->caster.dirplayery = 0;
+		data->caster.planex = 0;
+		data->caster.planey = 0.6;
+
 	}
 	return (0);
 }
@@ -44,3 +56,4 @@ int	init_player(t_data *data)
 	data->caster.playery = y;
 	return (set_dir(data, data->map.map[y][x]));
 }
+
