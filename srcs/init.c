@@ -6,11 +6,47 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 10:13:19 by ccottin           #+#    #+#             */
-/*   Updated: 2022/08/04 21:28:27 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/01 17:19:16 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.h"
+
+void	set_caster(t_data *data)
+{
+	data->caster.playerx = 2;
+	data->caster.playery = 2;
+	data->caster.dirplayerx = -1;
+	data->caster.dirplayery = 0;
+	data->caster.planex = 0;
+	data->caster.planey = 0.6;
+	data->caster.wall_size = 64;
+	data->caster.screen_l = 860;
+	data->caster.screen_w = 600;
+	data->caster.middle_l = data->caster.screen_l / 2;
+	data->caster.middle_w = data->caster.screen_w / 2;
+}
+
+int	init_mlx(t_data *data)
+{
+	data->win->mlx = mlx_init;
+	if (!data->win->mlx)
+		return (-1);
+	data->win->win = mlx_new_window(data->win->mlx, data->caster.screen_l,
+		data->caster.screen_w, "cub3D");
+	if (!data->win->win)
+		return (-1);
+}
+
+int	init_img(t_img *img, t_data *data)
+{
+	img->img = mlx_new_image(data->win->mlx, data->caster.screen_l,
+		data->caster.screen_w);
+	if (!img->img)
+		return (-1);
+	img->addr = mlx_get_data_addr(img->img, &(img->bpx),
+		&(img->line_length), &(img->endian));
+}
 
 void	set_null(t_data *data)
 {

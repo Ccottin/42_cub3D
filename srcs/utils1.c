@@ -32,3 +32,11 @@ char	*ft_strdup(char *s)
 	}
 	return (ret);
 }
+
+void	pixel_to_image(t_map *set, int x, int y, int color)
+{
+	char	*dst;
+
+	dst = set->img.addr + (y * set->img.line_length + x * (set->img.bpx / 8));
+	*(unsigned int*)dst = color;
+}
