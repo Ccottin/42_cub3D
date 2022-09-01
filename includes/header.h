@@ -98,6 +98,7 @@ int	ft_atoi(const char *nptr);
 int	set_info(t_data *data);
 int	init_map(char *av, t_data *data);
 int	all_info_set(t_data *data);
+int	init_player(t_data *data);
 int	get_info_wall_0(t_data *data, char *str, int i, char c);
 int	get_info_wall_1(t_data *data, char *str, int i, char c);
 int	get_info_wall(t_data *data, char *str, int i);

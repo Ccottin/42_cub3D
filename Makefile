@@ -6,13 +6,13 @@
 #    By: ccottin <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/02 17:05:58 by ccottin           #+#    #+#              #
-#    Updated: 2022/09/01 17:14:50 by ybendavi         ###   ########.fr        #
+#    Updated: 2022/09/01 19:24:55 by ybendavi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	= cub3D
 
-SRCS	= srcs/init_map.c srcs/utils.c srcs/init.c srcs/ft_return.c srcs/main.c srcs/set_info.c srcs/get_info_wall.c srcs/utils1.c srcs/set_info_map.c srcs/events_handler.c srcs/key_handler.c
+SRCS	= srcs/init_map.c srcs/utils.c srcs/init.c srcs/ft_return.c srcs/main.c srcs/set_info.c srcs/get_info_wall.c srcs/utils1.c srcs/set_info_map.c srcs/events_handler.c srcs/key_handler.c srcs/init_player.c
 
 SRCSDIR	= srcs
 
