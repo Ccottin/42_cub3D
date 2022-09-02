@@ -69,6 +69,22 @@ int	find_it(char **map)
 	return (ret);
 }
 
+int	y_loop(char **map, int y, int x)
+{
+	if (map[y][x] == '1' && map[y + 1] && ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
+	{
+		while (map[y] && ft_strlen(map[y]) > x && (is_char_map(map[y][x]) == 1 || is_char_acter(map[y][x]) == 1))
+			y++;
+		y--;
+	}
+	else if (map[y][x] == '0')
+		return (-1);
+	if (!map[y] || ft_strlen(map[y]) <= x || map[y][x] == '0')
+		return (-1);
+	y++;
+	return (y);
+}
+
 int	check_all_y(char **map)
 {
 	int	x;
@@ -82,17 +98,9 @@ int	check_all_y(char **map)
 	{
 		if (ft_strlen(map[y]) > x && map[y][x] != ' ')
 		{
-			if (map[y][x] == '1' && map[y + 1] && ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
-			{
-				while (map[y] && ft_strlen(map[y]) > x && (is_char_map(map[y][x]) == 1 || is_char_acter(map[y][x]) == 1))
-					y++;
-				y--;
-			}
-			else if (map[y][x] == '0')
+			y = y_loop(map, y, x);
+			if (y == -1)
 				return (-1);
-			if (!map[y] || ft_strlen(map[y]) <= x || map[y][x] == '0')
-				return (-1);
-			y++;
 		}
 		else
 			y++;

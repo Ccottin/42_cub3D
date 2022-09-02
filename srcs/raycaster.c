@@ -87,6 +87,30 @@ void	search_wall(t_data *data, double *distx, double *disty)
 		*disty -= data->caster.addy;
 }
 
+unsigned long createRGB(int r, int g, int b)
+{
+    return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
+}
+
+void	draw_ceiling_floor(int start, t_data *data, int x, int end)
+{
+	int	i;
+
+	i = 0;
+	while (i < start)
+	{
+		pixel_to_image(data, x, i, createRGB(data->map.ceiling_color.red, data->map.ceiling_color.green, data->map.ceiling_color.blue));
+		i++;
+	}
+	while (i < end)
+		i++;
+	while (i < data->caster.screen_w)
+	{
+		pixel_to_image(data, x, i, createRGB(data->map.floor_color.red, data->map.floor_color.green, data->map.floor_color.blue));
+		i++;
+	}
+}
+
 void	draw_line(t_data *data, double dist, int x)
 {
 	float	line;
@@ -102,6 +126,7 @@ void	draw_line(t_data *data, double dist, int x)
 	if (end > data->caster.screen_w)
 		end = data->caster.screen_w - 1;
 	i = start;
+	draw_ceiling_floor(start, data, x, end);
 	if (data->caster.side == 1) //partie a modifier pour les textures
 	{
 		while (i < end)

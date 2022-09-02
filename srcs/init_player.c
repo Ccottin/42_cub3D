@@ -1,5 +1,23 @@
 #include "header.h"
 
+void	set_other_dir(t_data *data, char player_dir)
+{
+	if (player_dir == 'E')
+	{
+		data->caster.dirplayerx = 1;
+		data->caster.dirplayery = 0;
+		data->caster.planex = 0;
+		data->caster.planey = 0.6;
+	}
+	if (player_dir == 'O')
+	{
+		data->caster.dirplayerx = -1;
+		data->caster.dirplayery = 0;
+		data->caster.planex = 0;
+		data->caster.planey = 0.6;
+	}
+}
+
 int	set_dir(t_data *data, char player_dir)
 {
 	if (player_dir == 'N')
@@ -8,32 +26,16 @@ int	set_dir(t_data *data, char player_dir)
 		data->caster.dirplayery = -1;
 		data->caster.planex = 0.6;
 		data->caster.planey = 0;
-
 	}
-	if (player_dir == 'S')
+	else if (player_dir == 'S')
 	{
 		data->caster.dirplayerx = 0;
 		data->caster.dirplayery = 1;
 		data->caster.planex = 0.6;
 		data->caster.planey = 0;
-
 	}
-	if (player_dir == 'E')
-	{
-		data->caster.dirplayerx = 1;
-		data->caster.dirplayery = 0;
-		data->caster.planex = 0;
-		data->caster.planey = 0.6;
-
-	}
-	if (player_dir == 'O')
-	{
-		data->caster.dirplayerx = -1;
-		data->caster.dirplayery = 0;
-		data->caster.planex = 0;
-		data->caster.planey = 0.6;
-
-	}
+	else
+		set_other_dir(data, player_dir);
 	return (0);
 }
 
@@ -46,11 +48,13 @@ int	init_player(t_data *data)
 	x = 0;
 	while (data->map.map[y] && !is_char_acter(data->map.map[y][x]))
 	{
-		x = 0;
 		while (data->map.map[y][x] && !is_char_acter(data->map.map[y][x]))
 			x++;
 		if (!is_char_acter(data->map.map[y][x]))
+		{
+			x = 0;
 			y++;
+		}
 	}
 	data->caster.playerx = x;
 	data->caster.playery = y;
