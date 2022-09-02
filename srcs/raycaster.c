@@ -120,7 +120,7 @@ void	draw_line(t_data *data, double dist, int x)
 	}
 }
 
-int	set_texture(t_data *data, int x)
+/*int	set_texture(t_data *data, int x)
 {
 	void	*img;
 	int	text;
@@ -132,7 +132,7 @@ int	set_texture(t_data *data, int x)
 	text = int(data->caster.wallhit * (double)t_w);
 	
 	return (0);
-}
+}*/
 
 int	get_img(t_data *data)
 {
@@ -155,14 +155,14 @@ int	get_img(t_data *data)
 		if (data->caster.side == 1)
 		{
 			data->caster.wallhit = data->caster.playerx + distx * data->caster.raydirx;
-		//	draw_line(data, distx, start);
+			draw_line(data, distx, start);
 		}
 		else
 		{
 			data->caster.wallhit = data->caster.playery + disty * data->caster.raydiry;
-		//	draw_line(data, disty, start);
+			draw_line(data, disty, start);
 		}
-		set_texture(data, start);
+		//set_texture(data, start);
 		set_null_caster(data);
 		start++;
 	}
