@@ -40,3 +40,5 @@ void	pixel_to_image(t_data *data, int x, int y, int color)
 	dst = data->img0.addr + (y * data->img0.line_length + x * (data->img0.bpx / 8));
 	*(unsigned int*)dst = color;
 }
+
+

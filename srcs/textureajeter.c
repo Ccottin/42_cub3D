@@ -85,41 +85,91 @@ void	search_wall(t_data *data, double *distx, double *disty)
 	else
 		*disty -= data->caster.addy;
 }
+/*	if (data->caster.side == 1) //partie a modifier pour les textures
+	{
+		while (i < end)
+		{
+			pixel_to_image(data, x, i, 0xFF08F7F0);
+			i++;
+		}
+	}
+	else
+	{
+		while (i < end)
+		{
+			pixel_to_image(data, x, i, 0xFFFFF01F);
+			i++;
+		}
+	}*/
 
-void	get_texture(t_data *data)//disty = -1
+void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
-	data->caster.wallhit -= (int)data->caster.wallhit;
-	data->caster.texposx = (double)data->north.width * data->caster.wallhit;
-	data->caster.texposy = 0;
+	unsigned char	*dest1;
+	unsigned char	*src1;
+	size_t			i;
+
+	i = 0;
+	if (!(dest) && !(src))
+		return (0);
+	dest1 = (unsigned char *)dest;
+	src1 = (unsigned char *)src;
+	while (i < n)
+	{
+		dest1[i] = src1[i];
+		i++;
+	}
+	return (dest);
 }
 
-void	draw_line(t_data *data, double dist, int x)
+void	draw_line(t_data *data, double dist, int posx, int x)
 {
-	float	line;
+	double	line;
+	double	posy;
+	double	stepy;
+	int	text;
 	int	start;
 	int	end;
-	double	stepy;
-//	int	color;
+	int	*color;
 
+	text = 0;
 	line = ((float)data->caster.screen_w / dist); //on peut le laisser en float?
+	stepy = 1.0 * (double)data->north.height / line;
 	start = data->caster.middle_w - line / 2;
 	end = data->caster.middle_w + line / 2;
+	printf("line %f , step = %f", line, stepy);
 	if (start < 0)
 		start = 0;
 	if (end > data->caster.screen_w)
 		end = data->caster.screen_w - 1;
-	get_texture(data);
-	stepy = 1.0 * (double)data->north.height / line;
-	printf("start = %d, end %d line = %f, posx = %f\n", start, end, line, data->caster.texposx);
+	posy = (start - data->caster.middle_w + line / 2) * stepy;
+	printf("posy = %f", posy);
+	color = ft_calloc(4);
 	while (start < end)
 	{
-		if (data->caster.side == 1)
-		pixel_to_image(data, x, start, data->north.addr[((int)data->caster.texposy * data->north.width + (int)data->caster.texposx) * 4] & 8355711);
-		else
-		pixel_to_image(data, x, start, data->north.addr[((int)data->caster.texposy * data->north.width + (int)data->caster.texposx) * 4]);
-		data->caster.texposy += stepy;
+		text = (int)posy;// & (data->north.height - 1);
+		posy += stepy;
+		color = ft_memcpy(color, &(data->north.addr)[data->north.height * posx + text], 4);
+//	printf("text = %d posy = %f, color %d\n", text, posy, *color);
+	//	if (data->caster.side == 1)
+	//		color = (color >> 1) & 8355711;
+		pixel_to_image(data, x, start, *color);
 		start++;
 	}
+	free(color);
+}
+
+int	set_texture(t_data *data, int x, double dist)
+{
+	int	posx;
+	
+	data->caster.wallhit -= (int) data->caster.wallhit;
+	posx = (int)(data->caster.wallhit * (double)data->north.width);
+	if ((data->caster.side == -1 && data->caster.raydiry < 0)
+		||(data->caster.side == 1 && data->caster.raydirx > 0))
+		posx = data->north.width - posx - 1;
+	printf("%d :: data->caster.wallhit = %f, posx = %d",x , data->caster.wallhit, posx);
+	draw_line(data, dist, posx, x);
+	return (0);
 }
 
 int	get_img(t_data *data)
@@ -129,11 +179,10 @@ int	get_img(t_data *data)
 	double	disty;
 
 	start = 0;
-	if (init_img(&(data->img0), data, 0)) //modifier en fonction de auelle image on dessine
+	if (init_img(&(data->img0), data, 0))
 		return (-1);
 	while (start < data->caster.screen_l)
 	{
-		printf("%d :: ", start);
 		data->caster.camerax = 2 * start
 			/ (double)data->caster.screen_l - 1;	
 		data->caster.raydirx = data->caster.dirplayerx
@@ -144,13 +193,15 @@ int	get_img(t_data *data)
 		if (data->caster.side == 1)
 		{
 			data->caster.wallhit = data->caster.playery + distx * data->caster.raydiry;
-			draw_line(data, distx, start);
+		//	draw_line(data, distx, start);
 		}
 		else
 		{
 			data->caster.wallhit = data->caster.playerx + disty * data->caster.raydirx;
-			draw_line(data, disty, start);
+		//	draw_line(data, disty, start);
 		}
+		if (set_texture(data, start, data->caster.wallhit))
+			return (-1);
 		set_null_caster(data);
 		start++;
 	}
@@ -168,7 +219,6 @@ int	raycaster(t_data *data)
 		return (-1);
 	if (init_img(&data->north, data, 1))
 		return (-1);
-	printf("north = %c\n", data->north.addr[0]);
 	if (get_img(data))
 		return (-1);
 	mlx_put_image_to_window(data->win.mlx, data->win.win, data->img0.img, 0, 0);

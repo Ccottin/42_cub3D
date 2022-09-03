@@ -33,10 +33,11 @@ int	init_mlx(t_data *data)
 	return (0);
 }
 
-int	init_img(t_img *img, t_data *data)
+int	init_img(t_img *img, t_data *data, int mark)
 {
-	img->img = mlx_new_image(data->win.mlx, data->caster.screen_l,
-		data->caster.screen_w);
+	if (mark == 0)
+		img->img = mlx_new_image(data->win.mlx, data->caster.screen_l,
+			data->caster.screen_w);
 	if (!img->img)
 		return (-1);
 	img->addr = mlx_get_data_addr(img->img, &(img->bpx),
