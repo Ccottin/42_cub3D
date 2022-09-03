@@ -9,7 +9,7 @@ int	all_info_set(t_data *data)
 		|| data->map.floor_color.red == -1
 		|| data->map.floor_color.green == -1
 		|| data->map.floor_color.blue == -1
-		|| data->map.ceiling_color.red == -1 
+		|| data->map.ceiling_color.red == -1
 		|| data->map.ceiling_color.green == -1
 		|| data->map.ceiling_color.blue == -1)
 		return (0);
@@ -37,8 +37,9 @@ void	pixel_to_image(t_data *data, int x, int y, int color)
 {
 	char	*dst;
 
-	dst = data->img0.addr + (y * data->img0.line_length + x * (data->img0.bpx / 8));
-	*(unsigned int*)dst = color;
+	dst = data->img0.addr + (y * data->img0.line_length
+			+ x * (data->img0.bpx / 8));
+	*(unsigned int *)dst = color;
 }
 
 

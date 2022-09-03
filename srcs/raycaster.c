@@ -91,6 +91,30 @@ void	get_texture(t_data *data)//disty = -1
 	data->caster.wallhit -= (int)data->caster.wallhit;
 	data->caster.texposx = (double)data->north.width * data->caster.wallhit;
 	data->caster.texposy = 0;
+  }
+
+unsigned long createRGB(int r, int g, int b)
+{
+    return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
+}
+
+void	draw_ceiling_floor(int start, t_data *data, int x, int end)
+{
+	int	i;
+
+	i = 0;
+	while (i < start)
+	{
+		pixel_to_image(data, x, i, createRGB(data->map.ceiling_color.red, data->map.ceiling_color.green, data->map.ceiling_color.blue));
+		i++;
+	}
+	while (i < end)
+		i++;
+	while (i < data->caster.screen_w)
+	{
+		pixel_to_image(data, x, i, createRGB(data->map.floor_color.red, data->map.floor_color.green, data->map.floor_color.blue));
+		i++;
+	}
 }
 
 void	draw_line(t_data *data, double dist, int x)
@@ -99,7 +123,6 @@ void	draw_line(t_data *data, double dist, int x)
 	int	start;
 	int	end;
 	double	stepy;
-//	int	color;
 
 	line = ((float)data->caster.screen_w / dist); //on peut le laisser en float?
 	start = data->caster.middle_w - line / 2;
@@ -110,9 +133,9 @@ void	draw_line(t_data *data, double dist, int x)
 		end = data->caster.screen_w - 1;
 	get_texture(data);
 	stepy = 1.0 * (double)data->north.height / line;
-	printf("start = %d, end %d line = %f, posx = %f\n", start, end, line, data->caster.texposx);
 	while (start < end)
-	{
+  {
+	draw_ceiling_floor(start, data, x, end);
 		if (data->caster.side == 1)
 		pixel_to_image(data, x, start, data->north.addr[((int)data->caster.texposy * data->north.width + (int)data->caster.texposx) * 4] & 8355711);
 		else
@@ -133,7 +156,6 @@ int	get_img(t_data *data)
 		return (-1);
 	while (start < data->caster.screen_l)
 	{
-		printf("%d :: ", start);
 		data->caster.camerax = 2 * start
 			/ (double)data->caster.screen_l - 1;	
 		data->caster.raydirx = data->caster.dirplayerx
@@ -143,14 +165,24 @@ int	get_img(t_data *data)
 		search_wall(data, &distx, &disty);
 		if (data->caster.side == 1)
 		{
+//<<<<<<< truc
 			data->caster.wallhit = data->caster.playery + distx * data->caster.raydiry;
+//=======
+//			data->caster.wallhit = data->caster.playerx + distx * data->caster.raydirx;
+//>>>>>>> master
 			draw_line(data, distx, start);
 		}
 		else
 		{
+//<<<<<<< truc
 			data->caster.wallhit = data->caster.playerx + disty * data->caster.raydirx;
 			draw_line(data, disty, start);
 		}
+//=======
+//			data->caster.wallhit = data->caster.playery + disty * data->caster.raydiry;
+	//		draw_line(data, disty, start);
+	//	}
+//>>>>>>> master
 		set_null_caster(data);
 		start++;
 	}
@@ -168,7 +200,6 @@ int	raycaster(t_data *data)
 		return (-1);
 	if (init_img(&data->north, data, 1))
 		return (-1);
-	printf("north = %c\n", data->north.addr[0]);
 	if (get_img(data))
 		return (-1);
 	mlx_put_image_to_window(data->win.mlx, data->win.win, data->img0.img, 0, 0);
