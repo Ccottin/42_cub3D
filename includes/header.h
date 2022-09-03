@@ -22,6 +22,8 @@ typedef struct s_img {
 	int	bpx;
 	int	line_length;
 	int	endian;
+	int	width;
+	int	height;
 	}	t_img;
 
 typedef struct s_color {
@@ -52,6 +54,8 @@ typedef struct s_caster {
 	int	screen_w;
 	int	middle_l;
 	int	middle_w;
+	double	texposy;
+	double	texposx;
 	double	dirx;
 	double	diry;
 	double	addx;
@@ -79,6 +83,7 @@ typedef struct s_data {
 	t_win	win;
 	t_img	img0;
 	t_img	img1;
+	t_img	north;
 	t_caster	caster;
 	}	t_data;
 
@@ -105,7 +110,7 @@ int	get_info_wall_0(t_data *data, char *str, int i, char c);
 int	get_info_wall_1(t_data *data, char *str, int i, char c);
 int	get_info_wall(t_data *data, char *str, int i);
 int	init_mlx(t_data *data);
-int	init_img(t_img *img, t_data *data);
+int	init_img(t_img *img, t_data *data, int mark);
 int	raycaster(t_data *data);
 void	free_map(t_data *data);
 void	free_all(t_data *data);

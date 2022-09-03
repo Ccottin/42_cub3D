@@ -46,7 +46,7 @@ int	init_player(t_data *data)
 
 	y = 0;
 	x = 0;
-	while (data->map.map[y] && !is_char_acter(data->map.map[y][x]))
+	while (data->map.map[y]	&& !is_char_acter(data->map.map[y][x]))
 	{
 		while (data->map.map[y][x] && !is_char_acter(data->map.map[y][x]))
 			x++;
@@ -58,5 +58,6 @@ int	init_player(t_data *data)
 	}
 	data->caster.playerx = x;
 	data->caster.playery = y;
+	printf("player pos = %f, %f\n", data->caster.playerx, data->caster.playery);
 	return (set_dir(data, data->map.map[y][x]));
 }
