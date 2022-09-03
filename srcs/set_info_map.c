@@ -5,7 +5,7 @@ en esperant aue ce ne soit pas trop confu*/
 
 int	get_new_map(t_data *data, int i)
 {
-	int	size;
+	int		size;
 	char	**new;
 
 	size = i;
@@ -71,9 +71,12 @@ int	find_it(char **map)
 
 int	y_loop(char **map, int y, int x)
 {
-	if (map[y][x] == '1' && map[y + 1] && ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
+	if (map[y][x] == '1' && map[y + 1]
+		&& ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
 	{
-		while (map[y] && ft_strlen(map[y]) > x && (is_char_map(map[y][x]) == 1 || is_char_acter(map[y][x]) == 1))
+		while (map[y] && ft_strlen(map[y]) > x
+			&& (is_char_map(map[y][x]) == 1
+			|| is_char_acter(map[y][x]) == 1))
 			y++;
 		y--;
 	}
@@ -126,7 +129,8 @@ int	check_all_x(char **map)
 			x++;
 		if (x == '0')
 			return (-1);
-		while (map[y][x] && (is_char_map(map[y][x]) == 1 || is_char_acter(map[y][x]) == 1))
+		while (map[y][x] && (is_char_map(map[y][x]) == 1
+			|| is_char_acter(map[y][x]) == 1))
 			x++;
 		if (x > 0 && map[y][x - 1] && map[y][x - 1] != '1')
 			return (-1);
@@ -209,8 +213,7 @@ int	detach_map(t_data *data)
 	ret = check_map(data);
 	if (ret)
 		return (ret);
-	if  (map_closed(data))
+	if (map_closed(data))
 		return (-11);
-
 	return (0);
 }

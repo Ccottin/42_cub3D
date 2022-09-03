@@ -40,12 +40,12 @@ int	get_colors_2(t_data *data, char *str, int *i, int *count)
 	char	*buffer;
 	int		y;
 	int		ret;
-	
+
 	buffer = ft_calloc(4);
 	if (!buffer)
 		return (-1);
 	y = 0;
-	while  (y < 3 && str[*i] && (str[*i] >= '0' && str[*i] <= '9'))
+	while (y < 3 && str[*i] && (str[*i] >= '0' && str[*i] <= '9'))
 		buffer[y++] = str[(*i)++];
 	if (str[(*i)] && *count != 2 && str[(*i)] != ',')
 	{

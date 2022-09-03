@@ -60,4 +60,3 @@ int	init_player(t_data *data)
 	data->caster.playery = y;
 	return (set_dir(data, data->map.map[y][x]));
 }
-
