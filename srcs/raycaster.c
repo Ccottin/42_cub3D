@@ -133,9 +133,9 @@ void	draw_line(t_data *data, double dist, int x)
 		end = data->caster.screen_w - 1;
 	get_texture(data);
 	stepy = 1.0 * (double)data->north.height / line;
+	draw_ceiling_floor(start, data, x, end);
 	while (start < end)
   {
-	draw_ceiling_floor(start, data, x, end);
 		if (data->caster.side == 1)
 		pixel_to_image(data, x, start, data->north.addr[((int)data->caster.texposy * data->north.width + (int)data->caster.texposx) * 4] & 8355711);
 		else
