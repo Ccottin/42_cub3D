@@ -1,20 +1,16 @@
-NO ./path_to_the_north_texture
+NO ./japtext/japset0_0.xpm
 
-SO ./path_to_the_south_texture
+SO ./japtext/japset0_2.xpm
 
 
 F 144,238,144
 
+EA ./japtext/japset0_1.xpm
 
 
+WE ./japtext/japset0_3.xpm
 
-
-EA ./path_to_the_east_texture
-
-
-WE ./path_to_the_west_texture
-
-C 135,136,250
+C 120,136,250
 
 
 

@@ -1,7 +1,7 @@
-NO ./images/NO.xpm 123
-SO ./images/SO.xpm
-WE ./images/WE.xpm
-EA ./images/EA.xpm
+NO japtext/japset1_0.xpm
+SO japtext/japset1_1.xpm
+WE japtext/japset1_3.xpm
+EA japtext/japset1_2.xpm
 F 00,153,15
 C 255,255,255
 
