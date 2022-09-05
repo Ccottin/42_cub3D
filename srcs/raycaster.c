@@ -153,7 +153,6 @@ void	draw_line(t_data *data, double dist, int x)
 	data->caster.texposy = (start - data->caster.middle_w + line / 2 + 1) * stepy;
 	while (start < end)
   	{
-	//	printf("texposy = %f\n", data->caster.texposy);
 		if (data->caster.texposy >= data->north.height)
 			data->caster.texposy = data->north.height - 1;
 	  	color = get_color(data);
