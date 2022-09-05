@@ -2,7 +2,6 @@
 
 int	keyboard(int keycode, t_data *data)
 {
-	printf("key:%d\n", keycode);
 	if (keycode == 65361)
 		return (key_left(data));
 	else if (keycode == 65363)

@@ -90,7 +90,10 @@ void	get_texture(t_data *data)//disty = -1
 {
 	data->caster.wallhit -= (int)data->caster.wallhit;
 	data->caster.texposx = (double)data->north.width * data->caster.wallhit;
-	data->caster.texposy = 0;
+	if ((data->caster.side == -1 && data->caster.raydiry < 0)
+		||(data->caster.side == 1 && data->caster.raydirx > 0))
+		data->caster.texposx = data->north.width - data->caster.texposx - 1;
+
   }
 
 unsigned long createRGB(int r, int g, int b)
@@ -117,14 +120,27 @@ void	draw_ceiling_floor(int start, t_data *data, int x, int end)
 	}
 }
 
+int	get_color(t_data *data)
+{
+	int	color;
+	int	rgb;
+
+	color = *(int*)(data->north.addr
+		+ ((int)data->caster.texposy * data->north.height
+		+ (int)data->caster.texposx) * 4);
+	rgb = (color & 0xFF0000) | (color & 0x00FF00) | (color & 0x0000FF);
+	return (rgb);
+}
+
 void	draw_line(t_data *data, double dist, int x)
 {
 	float	line;
 	int	start;
 	int	end;
 	double	stepy;
+	int	color;
 
-	line = ((float)data->caster.screen_w / dist); //on peut le laisser en float?
+	line = ((float)data->caster.screen_w / dist); 	
 	start = data->caster.middle_w - line / 2;
 	end = data->caster.middle_w + line / 2;
 	if (start < 0)
@@ -134,12 +150,16 @@ void	draw_line(t_data *data, double dist, int x)
 	get_texture(data);
 	stepy = 1.0 * (double)data->north.height / line;
 	draw_ceiling_floor(start, data, x, end);
+	data->caster.texposy = (start - data->caster.middle_w + line / 2 + 1) * stepy;
 	while (start < end)
-  {
+  	{
+		if (data->caster.texposy >= data->north.height)
+			data->caster.texposy = data->north.height - 1;
+	  	color = get_color(data);
 		if (data->caster.side == 1)
-		pixel_to_image(data, x, start, data->north.addr[((int)data->caster.texposy * data->north.width + (int)data->caster.texposx) * 4] & 8355711);
+			pixel_to_image(data, x, start, (color >> 1) & 8355711);
 		else
-		pixel_to_image(data, x, start, data->north.addr[((int)data->caster.texposy * data->north.width + (int)data->caster.texposx) * 4]);
+			pixel_to_image(data, x, start, color);
 		data->caster.texposy += stepy;
 		start++;
 	}
@@ -165,24 +185,14 @@ int	get_img(t_data *data)
 		search_wall(data, &distx, &disty);
 		if (data->caster.side == 1)
 		{
-//<<<<<<< truc
 			data->caster.wallhit = data->caster.playery + distx * data->caster.raydiry;
-//=======
-//			data->caster.wallhit = data->caster.playerx + distx * data->caster.raydirx;
-//>>>>>>> master
 			draw_line(data, distx, start);
 		}
 		else
 		{
-//<<<<<<< truc
 			data->caster.wallhit = data->caster.playerx + disty * data->caster.raydirx;
 			draw_line(data, disty, start);
 		}
-//=======
-//			data->caster.wallhit = data->caster.playery + disty * data->caster.raydiry;
-	//		draw_line(data, disty, start);
-	//	}
-//>>>>>>> master
 		set_null_caster(data);
 		start++;
 	}
@@ -194,7 +204,7 @@ int	raycaster(t_data *data)
 	set_caster(data);
 	if (init_mlx(data))
 		return (-1);
-	data->north.img = mlx_xpm_file_to_image(data->win.mlx, "wall.xpm",
+	data->north.img = mlx_xpm_file_to_image(data->win.mlx, "japtext/japset1_1.xpm",
 			&data->north.width, &data->north.height);
 	if (!data->north.img)
 		return (-1);
@@ -203,6 +213,7 @@ int	raycaster(t_data *data)
 	if (get_img(data))
 		return (-1);
 	mlx_put_image_to_window(data->win.mlx, data->win.win, data->img0.img, 0, 0);
+	mlx_put_image_to_window(data->win.mlx, data->win.win, data->north.img, 0, 0);
 	events_handler(data);
 	mlx_loop(data->win.mlx);
 	return (0);
