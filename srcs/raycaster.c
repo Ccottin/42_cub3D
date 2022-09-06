@@ -93,14 +93,14 @@ t_img	*get_texture(t_data *data)
 
 	if (data->caster.side == 1)
 	{
-		if (data->caster.dirplayerx < 0)
+		if (data->caster.casex < data->caster.playerx)
 			img = &data->east;
 		else
 			img = &data->west;
 	}
 	else
 	{
-		if (data->caster.dirplayery < 0)
+		if (data->caster.casey > data->caster.playery)
 			img = &data->south;
 		else	
 			img = &data->north;
