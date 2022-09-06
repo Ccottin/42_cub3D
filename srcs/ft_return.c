@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 18:19:40 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/06 18:59:52 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ void	free_map(t_data *data)
 
 void	clear_mlx(t_data *data)
 {
+	if (data->img0.img)
+		mlx_destroy_image(data->win.mlx, data->img0.img);
 	if (data->south.img)
 		mlx_destroy_image(data->win.mlx, data->south.img);
 	if (data->north.img)
