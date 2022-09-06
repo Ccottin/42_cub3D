@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 10:13:19 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/01 21:23:57 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/06 19:28:32 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,17 @@ void	set_null_caster(t_data *data)
 	data->caster.side = 0;
 }
 
+void	set_null_imgs(t_data *data)
+{
+	data->img0.img = NULL;
+	data->south.img = NULL;
+	data->north.img = NULL;
+	data->east.img = NULL;
+	data->west.img = NULL;
+	data->win.mlx = NULL;
+	data->win.win = NULL;
+}
+
 void	set_null(t_data *data)
 {
 	errno = 0;
@@ -85,5 +96,6 @@ void	set_null(t_data *data)
 	data->caster.dirplayery = 0;
 	data->caster.planex = 0;
 	data->caster.planey = 0;
+	set_null_imgs(data);
 	set_null_caster(data);
 }

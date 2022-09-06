@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 18:59:52 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/06 19:40:26 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,6 +81,7 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nPlease give a single map as argument\n");
 		exit(0);
 	}
+	free_all(data);
 	if (ret == -2)
 	{
 		printf("Error\nInvalid file extension\n");
@@ -131,7 +132,6 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nMap is not surrounded by wall\n");
 		exit(0);
 	}
-	free_all(data);
 	if (ret == -1)
 	{
 		printf("Error\n");

@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:21:42 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 18:00:21 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/06 21:52:04 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,8 +108,18 @@ int	put_line(t_data *data, char **buffer)
 		}
 		i++;
 	}
-	if (ft_cpy(data, *buffer, start, i))
-		return (-1);
+	if (start == 0 && i == 500)
+	{
+		data->map.map[data->map.map_size - 1] = 
+			ft_concat(data->map.map[data->map.map_size - 1], *buffer, i);
+		if (!data->map.map[data->map.map_size - 1])
+			return (-1);
+	}
+	else
+	{
+		if (ft_cpy(data, *buffer, start, i))
+			return (-1);
+	}
 	i = 0;
 	while ((*buffer)[i])
 		(*buffer)[i++] = 0;
