@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   set_info_map.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/06 18:16:33 by ybendavi          #+#    #+#             */
+/*   Updated: 2022/09/06 18:16:37 by ybendavi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "header.h"
 
 /*petit erratum, j ai inverse les x et le y, du coup pour la structure et les cooronees sur perso j ai re echange les bails, 
