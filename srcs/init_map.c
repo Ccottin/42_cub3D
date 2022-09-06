@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:21:42 by ccottin           #+#    #+#             */
-/*   Updated: 2022/08/31 16:10:07 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/06 18:00:21 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -214,28 +214,3 @@ int	init_map(char *av, t_data *data)
 		return (i);
 	return (0);
 }
-/* Poutoi chef si tu veux le tester plusse :3 jpense que ca ira mais sait-on jamais, aussi jsuis pas sure 
-d'avoir cree un fichier sans retour chariot ducu si t y arrives jveux bien que tu le tentes 
-int	main(int ac, char **av)
-{
-	int	i;
-	t_data data;
-
-	(void)ac;
-	i = init_map(av[1], &data);
-	printf("return = %d, map size = %d\n", i, data.map_size);
-	i = 0;
-	while (data.map[i])
-	{
-		printf("1 = %s\n", data.map[i]);
-		i++;
-	}
-	i = 0;
-	while (data.map[i])
-	{
-		free(data.map[i]);
-		i++;
-	}
-	free(data.map);
-	return (0);
-}*/
