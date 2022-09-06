@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/04 17:15:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 18:00:02 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 00:11:55 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,13 +47,15 @@ int	get_colors_2(t_data *data, char *str, int *i, int *count)
 	y = 0;
 	while (y < 3 && str[*i] && (str[*i] >= '0' && str[*i] <= '9'))
 		buffer[y++] = str[(*i)++];
-	if (str[(*i)] && *count != 2 && str[(*i)] != ',')
+	if (str[(*i)] && *count != 2 && (str[*i] != ',' && str[*i] != ' '))
 	{
 		free(buffer);
 		return (-7);
 	}
-	(*i)++;
+	while (str[*i] && str[*i] == ' ')
+		(*i)++;
 	ret = fill_colors(data, buffer, count, data->map.c);
+	printf("buffer = %s\n", buffer);
 	free(buffer);
 	if (ret)
 		return (ret);
@@ -74,6 +76,10 @@ int	get_colors(t_data *data, char *str, int i, char c)
 		ret = get_colors_2(data, str, &i, &count);
 		if (ret)
 			return (ret);
+		if (str[i] && str[i] == ',')
+			i++;
+		while (str[i] && str[i] == ' ')
+			i++;
 	}
 	while (count < 3 && str[i] && str[i] == ' ')
 		i++;

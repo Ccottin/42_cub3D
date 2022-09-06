@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 21:57:23 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/06 23:32:25 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -138,8 +138,7 @@ t_img	*get_texture(t_data *data)
 		data->caster.texposx = img->width - 1;
 	if ((data->caster.side == -1 && data->caster.raydiry < 0)
 		||(data->caster.side == 1 && data->caster.raydirx > 0))
-		data->caster.texposx = img->width - data->caster.texposx
-			- 1;
+		data->caster.texposx = img->width - data->caster.texposx;
 	return (img);
 }
 
@@ -159,9 +158,8 @@ void	draw_line2(t_data *data, int *start, int x, t_img *img)
 {
 	int	color;
 
-	if (x > 10 && x < 20)
-	if (data->caster.texposy >= img->height)
-		data->caster.texposy = img->height - 1;
+	if (data->caster.texposy > img->height)
+		data->caster.texposy = img->height;
   	color = get_color(data, img);
 	if (data->caster.side == 1)
 		pixel_to_image(data, x, *start, (color >> 1) & 8355711);
@@ -179,16 +177,18 @@ void	draw_line(t_data *data, double dist, int x)
 	int	end;
 	t_img	*img;
 
-	line = ((float)data->caster.screen_w / dist); 	
-	start = data->caster.middle_w - line / 2;
-	end = data->caster.middle_w + line / 2;
+	line = ((float)data->caster.screen_w / dist);
+	start = data->caster.middle_w - (int)line / 2;
+	end = data->caster.middle_w + (int)line / 2;
 	if (start < 0)
 		start = 0;
 	if (end > data->caster.screen_w)
-		end = data->caster.screen_w - 1;
+		end = data->caster.screen_w;
+//	printf("line = %f, start = %d end = %d start + end = %d\n", line,start, end,  end - start);
 	img = get_texture(data);
 	draw_ceiling_floor(start, data, x, end);
 	data->caster.stepy = 1.0 * (double)img->height / line;
+//	printf("stepy = %f\n", data->caster.stepy);
 	data->caster.texposy = (start - data->caster.middle_w + line / 2 + 1)
 		* data->caster.stepy;
 	while (start < end)
