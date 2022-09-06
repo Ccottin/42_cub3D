@@ -50,12 +50,13 @@ typedef struct s_caster {
 	double	camerax;
 	double	raydirx;
 	double	raydiry;
+	double	stepy;
 	int	screen_l;
 	int	screen_w;
 	int	middle_l;
 	int	middle_w;
 	double	texposy;
-	double	texposx;
+	int	texposx;
 	double	dirx;
 	double	diry;
 	double	addx;
@@ -82,8 +83,10 @@ typedef struct s_data {
 	t_map	map;
 	t_win	win;
 	t_img	img0;
-	t_img	img1;
+	t_img	south;
 	t_img	north;
+	t_img	east;
+	t_img	west;
 	t_caster	caster;
 	}	t_data;
 

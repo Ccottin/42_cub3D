@@ -1,16 +1,15 @@
-NO ./japtext/japset0_0.xpm
+NO ./oceantext/ocean0_0.xpm
 
-SO ./japtext/japset0_2.xpm
-
-
-F 144,238,144
-
-EA ./japtext/japset0_1.xpm
+SO ./oceantext/ocean0_2.xpm
 
 
-WE ./japtext/japset0_3.xpm
+F 18,8,41
 
-C 120,136,250
+EA ./oceantext/ocean0_1.xpm
+
+WE ./oceantext/ocean0_3.xpm
+
+C 46,126,180
 
 
 

@@ -1,0 +1,17 @@
+NO ./basictext/facing_south.xpm
+
+SO ./basictext/facing_north.xpm
+
+EA ./basictext/facing_west.xpm
+
+WE ./basictext/facing_east.xpm
+
+F 0, 0, 0
+
+C 255, 255, 255
+
+11111
+10001
+10N01
+10001
+11111

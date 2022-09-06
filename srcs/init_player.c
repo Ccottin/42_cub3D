@@ -9,7 +9,7 @@ void	set_other_dir(t_data *data, char player_dir)
 		data->caster.planex = 0;
 		data->caster.planey = 0.6;
 	}
-	if (player_dir == 'O')
+	if (player_dir == 'W')
 	{
 		data->caster.dirplayerx = -1;
 		data->caster.dirplayery = 0;
