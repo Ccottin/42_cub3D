@@ -18,7 +18,7 @@ void	set_other_dir(t_data *data, char player_dir)
 	}
 }
 
-int	set_dir(t_data *data, char player_dir)
+void	set_dir(t_data *data, char player_dir)
 {
 	if (player_dir == 'N')
 	{
@@ -36,10 +36,9 @@ int	set_dir(t_data *data, char player_dir)
 	}
 	else
 		set_other_dir(data, player_dir);
-	return (0);
 }
 
-int	init_player(t_data *data)
+void	init_player(t_data *data)
 {
 	int	x;
 	int	y;
@@ -56,8 +55,8 @@ int	init_player(t_data *data)
 			y++;
 		}
 	}
-	data->caster.playerx = x;
-	data->caster.playery = y;
-	printf("player pos = %f, %f\n", data->caster.playerx, data->caster.playery);
-	return (set_dir(data, data->map.map[y][x]));
+	data->caster.playerx = x + 0.5;
+	data->caster.playery = y + 0.5;
+	set_dir(data, data->map.map[y][x]);
+	data->map.map[y][x] = '0';
 }
