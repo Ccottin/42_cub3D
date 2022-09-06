@@ -48,7 +48,7 @@ typedef struct s_caster {
 	int	screen_l;
 	int	screen_w;
 	int	middle_l;
-	int	middle_w;
+	double	middle_w;
 	double	texposy;
 	int	texposx;
 	double	dirx;

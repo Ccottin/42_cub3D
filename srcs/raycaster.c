@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 19:09:08 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/06 21:57:23 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -85,33 +85,6 @@ void	search_wall(t_data *data, double *distx, double *disty)
 		*disty -= data->caster.addy;
 }
 
-t_img	*get_texture(t_data *data)
-{
-	t_img	*img;
-
-	if (data->caster.side == 1)
-	{
-		if (data->caster.casex < data->caster.playerx)
-			img = &data->east;
-		else
-			img = &data->west;
-	}
-	else
-	{
-		if (data->caster.casey > data->caster.playery)
-			img = &data->south;
-		else	
-			img = &data->north;
-	}
-	data->caster.wallhit -= (int)data->caster.wallhit;
-	data->caster.texposx =(int)((double)img->width * data->caster.wallhit);
-	if ((data->caster.side == -1 && data->caster.raydiry < 0)
-		||(data->caster.side == 1 && data->caster.raydirx > 0))
-		data->caster.texposx = img->width - data->caster.texposx
-			- 1;
-	return (img);
-  }
-
 unsigned long createRGB(int r, int g, int b)
 {
     return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
@@ -140,6 +113,36 @@ void	draw_ceiling_floor(int start, t_data *data, int x, int end)
 	}
 }
 
+t_img	*get_texture(t_data *data)
+{
+	t_img	*img;
+
+	if (data->caster.side == 1)
+	{
+		if (data->caster.casex > data->caster.playerx)
+			img = &data->east;
+		else
+			img = &data->west;
+	}
+	else
+	{
+		if (data->caster.casey > data->caster.playery)
+			img = &data->south;
+		else	
+			img = &data->north;
+	}
+	data->caster.wallhit -= (int)data->caster.wallhit;
+	data->caster.wallhit = fabs(1.0 -  data->caster.wallhit);
+	data->caster.texposx =(int)((double)img->width * data->caster.wallhit);
+	if (data->caster.texposx >= img->width)
+		data->caster.texposx = img->width - 1;
+	if ((data->caster.side == -1 && data->caster.raydiry < 0)
+		||(data->caster.side == 1 && data->caster.raydirx > 0))
+		data->caster.texposx = img->width - data->caster.texposx
+			- 1;
+	return (img);
+}
+
 int	get_color(t_data *data, t_img *img)
 {
 	int	color;
@@ -156,6 +159,7 @@ void	draw_line2(t_data *data, int *start, int x, t_img *img)
 {
 	int	color;
 
+	if (x > 10 && x < 20)
 	if (data->caster.texposy >= img->height)
 		data->caster.texposy = img->height - 1;
   	color = get_color(data, img);
