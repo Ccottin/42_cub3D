@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 18:27:54 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/06 19:09:08 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -174,7 +174,7 @@ void	draw_line2(t_data *data, int *start, int x, t_img *img)
 
 void	draw_line(t_data *data, double dist, int x)
 {
-	float	line;
+	double	line;
 	int	start;
 	int	end;
 	t_img	*img;

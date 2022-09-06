@@ -115,5 +115,6 @@ void	set_null(t_data *data);
 void	pixel_to_image(t_data *data, int x, int y, int color);
 void	set_caster(t_data *data);
 void	set_null_caster(t_data *data);
+void	free_init(t_data *data);
 
 #endif
