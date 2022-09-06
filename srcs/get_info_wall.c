@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/04 18:54:38 by ccottin           #+#    #+#             */
-/*   Updated: 2022/08/31 17:31:40 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/06 17:59:49 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ char	*fill_info_wall(char *str, int start, int end)
 		ret[i++] = str[start++];
 	return (ret);
 }
-
 int	get_info_wall_0(t_data *data, char *str, int i, char c)
 {
 	int	y;

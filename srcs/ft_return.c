@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/08/31 16:23:08 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/06 18:19:40 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,30 @@ void	free_map(t_data *data)
 	free(data->map.map);
 }
 
-void	free_all(t_data *data)
+void	clear_mlx(t_data *data)
 {
-	free_map(data);
+	if (data->south.img)
+		mlx_destroy_image(data->win.mlx, data->south.img);
+	if (data->north.img)
+		mlx_destroy_image(data->win.mlx, data->north.img);
+	if (data->east.img)
+		mlx_destroy_image(data->win.mlx, data->east.img);
+	if (data->west.img)
+		mlx_destroy_image(data->win.mlx, data->west.img);
+	if (data->win.win)
+	{
+		mlx_loop_end(data->win.win);
+		mlx_destroy_window(data->win.mlx, data->win.win);
+	}
+	if (data->win.mlx)
+	{
+		mlx_destroy_display(data->win.mlx);
+		free(data->win.mlx);
+	}
+}
+
+void	free_init(t_data *data)
+{
 	if (data->map.north_texture)
 		free(data->map.north_texture);
 	if (data->map.south_texture)
@@ -38,7 +59,17 @@ void	free_all(t_data *data)
 		free(data->map.east_texture);	
 	if (data->map.west_texture)
 		free(data->map.west_texture);
+	data->map.north_texture = NULL;
+	data->map.south_texture = NULL;
+	data->map.east_texture = NULL;
+	data->map.west_texture = NULL;
+}
 
+void	free_all(t_data *data)
+{
+	free_init(data);
+	free_map(data);
+	clear_mlx(data);
 }
 
 void	ft_return(int ret, t_data *data)
@@ -48,7 +79,6 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nPlease give a single map as argument\n");
 		exit(0);
 	}
-	free_all(data);
 	if (ret == -2)
 	{
 		printf("Error\nInvalid file extension\n");
@@ -99,6 +129,7 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nMap is not surrounded by wall\n");
 		exit(0);
 	}
+	free_all(data);
 	if (ret == -1)
 	{
 		printf("Error\n");

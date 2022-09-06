@@ -31,12 +31,6 @@ typedef struct s_color {
 	int	green;
 	int	blue;
 	}	t_color;
-//supprimer la struc player et le morceau de code
-typedef struct	s_player {
-	int	player_x;
-	int	player_y;
-	char	player_facing;
-	} t_player;
 
 typedef struct s_caster {
 	int	casex;
@@ -75,7 +69,6 @@ typedef struct s_map {
 	char	*west_texture;
 	t_color	floor_color;
 	t_color	ceiling_color;
-	t_player	player;
 	char	c;
 	}	t_map;
 
@@ -108,7 +101,7 @@ int	set_info(t_data *data);
 int	init_map(char *av, t_data *data);
 int	all_info_set(t_data *data);
 int	get_img(t_data *data);
-int	init_player(t_data *data);
+void	init_player(t_data *data);
 int	get_info_wall_0(t_data *data, char *str, int i, char c);
 int	get_info_wall_1(t_data *data, char *str, int i, char c);
 int	get_info_wall(t_data *data, char *str, int i);

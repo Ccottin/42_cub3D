@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 18:06:13 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/06 18:27:54 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,6 @@ void	set_search(t_data *data, double *distx, double *disty, int *wall)
 	else
 		data->caster.addy = fabs(1 / data->caster.raydiry);
 	get_dist(data, distx, disty);
-//	printf("raydir = %f %f\n", data->caster.addx, data->caster.addy);
 }
 
 void	search_wall(t_data *data, double *distx, double *disty)
@@ -84,7 +83,6 @@ void	search_wall(t_data *data, double *distx, double *disty)
 			data->map.map[data->caster.casey][data->caster.casex] == '1')
 			wall = 1;
 	}
-//	printf("%d; %d, %c\n", data->caster.casey, data->caster.casex, data->map.map[data->caster.casey][data->caster.casex]);
 	if (data->caster.side == 1)
 		*distx -= data->caster.addx;
 	else
@@ -269,6 +267,7 @@ int	raycaster(t_data *data)
 		return (-1);
 	if (init_texture(data))
 		return (-1);
+	free_init(data);
 	if (get_img(data))
 		return (-1);
 	mlx_put_image_to_window(data->win.mlx, data->win.win, data->img0.img,
