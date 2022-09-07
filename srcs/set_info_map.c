@@ -6,7 +6,7 @@
 /*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 18:16:33 by ybendavi          #+#    #+#             */
-/*   Updated: 2022/09/06 18:16:37 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/06 23:27:55 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ int	find_it(char **map)
 int	y_loop(char **map, int y, int x)
 {
 	if (map[y][x] == '1' && map[y + 1]
-		&& ft_strlen(map[y + 1]) > x && map[y + 1][x] == '0')
+		&& ft_strlen(map[y + 1]) > x && (map[y + 1][x] == '0' || is_char_acter(map[y + 1][x]) == 1))
 	{
 		while (map[y] && ft_strlen(map[y]) > x
 			&& (is_char_map(map[y][x]) == 1
@@ -66,8 +66,10 @@ int	y_loop(char **map, int y, int x)
 	}
 	else if (map[y][x] == '0')
 		return (-1);
-	if (!map[y] || ft_strlen(map[y]) <= x || map[y][x] == '0')
+	if (!map[y] || ft_strlen(map[y]) <= x || map[y][x] == '0' || is_char_acter(map[y][x]) == 1)
+	{
 		return (-1);
+	}
 	y++;
 	return (y);
 }
@@ -109,15 +111,23 @@ int	check_all_x(char **map)
 	x = 0;
 	while (map[y])
 	{
-		while (map[y][x] == ' ')
-			x++;
-		if (x == '0')
-			return (-1);
-		while (map[y][x] && (is_char_map(map[y][x]) == 1
-			|| is_char_acter(map[y][x]) == 1))
-			x++;
-		if (x > 0 && map[y][x - 1] && map[y][x - 1] != '1')
-			return (-1);
+		if (map[y][x] && map[y][x] == ' ')
+		{
+			while (map[y][x] && map[y][x] == ' ')
+				x++;
+		}
+		else
+		{
+			if (map[y][x] == '0')
+				return (-1);
+			while (map[y][x] && (is_char_map(map[y][x]) == 1
+				|| is_char_acter(map[y][x]) == 1))
+				x++;
+			if (x > 0 && map[y][x - 1] && map[y][x - 1] != '1')
+			{
+				return (-1);
+			}
+		}
 		if (!map[y][x])
 		{
 			y++;
@@ -196,7 +206,7 @@ int	detach_map(t_data *data)
 	if (ret)
 		return (ret);
 	if (get_new_map(data, i))
-		return (-1);	
+		return (-1);
 	if  (map_closed(data))
 		return (-11);
 	return (0);
