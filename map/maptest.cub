@@ -1,15 +1,15 @@
-NO ./texture/basictext/facing_south.xpm
+NO ./texture/basictext/facing_south.xpm    
 
 SO ./texture/basictext/facing_north.xpm
 
-EA ./texture/basictext/facing_west.xpm
+EA./texture/basictext/facing_west.xpm               
 
 WE ./texture/basictext/facing_east.xpm
 
-F             666  ,    1      ,     2        
+F             6  ,    1       ,          6 
+
 
 C 255,255,255 
-
 
         1111111111111111111111111
         1000000000110000000000001
@@ -56,4 +56,12 @@ C 255,255,255
 100000000000000000000000000000001
 100000000000000000000000000000001
 100000000000000000000000000000001
-111111111111111111111111111111111
+111111111111111100000011111111111
+               10000001
+               10000001
+               10000001
+               10000001
+               10000001
+               10000001
+               11111111
+

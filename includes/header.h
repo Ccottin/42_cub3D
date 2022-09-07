@@ -33,8 +33,6 @@ typedef struct s_color {
 	}	t_color;
 
 typedef struct s_caster {
-	int	casex;
-	int	casey;
 	double	playerx;
 	double	playery;
 	double	dirplayerx;
@@ -45,21 +43,25 @@ typedef struct s_caster {
 	double	raydirx;
 	double	raydiry;
 	double	stepy;
-	int	screen_l;
-	int	screen_w;
-	int	middle_l;
-	double	middle_w;
-	double	texposy;
-	int	texposx;
 	double	dirx;
 	double	diry;
 	double	addx;
 	double	addy;
 	double	wallhit;
+	double	texposy;
+	int	casex;
+	int	casey;
+	int	screen_l;
+	int	screen_w;
+	int	middle_l;
+	int	middle_w;
+	int	texposx;
 	int	side;
 	}	t_caster;
 
 typedef struct s_map {
+	t_color	floor_color;
+	t_color	ceiling_color;
 	char	**map;
 	int	map_size;
 	int	map_width;
@@ -67,8 +69,6 @@ typedef struct s_map {
 	char	*south_texture;
 	char	*east_texture;
 	char	*west_texture;
-	t_color	floor_color;
-	t_color	ceiling_color;
 	char	c;
 	}	t_map;
 
@@ -102,13 +102,13 @@ int	set_info(t_data *data);
 int	init_map(char *av, t_data *data);
 int	all_info_set(t_data *data);
 int	get_img(t_data *data);
-void	init_player(t_data *data);
 int	get_info_wall_0(t_data *data, char *str, int i, char c);
-int	get_info_wall_1(t_data *data, char *str, int i, char c);
+int	get_info_wall_1(t_data *data, char *str, int i);
 int	get_info_wall(t_data *data, char *str, int i);
 int	init_mlx(t_data *data);
 int	init_img(t_img *img, t_data *data, int mark);
 int	raycaster(t_data *data);
+void	init_player(t_data *data);
 void	reload_img(t_data *data);
 void	free_map(t_data *data);
 void	free_all(t_data *data);

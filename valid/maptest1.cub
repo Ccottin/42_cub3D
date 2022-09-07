@@ -1,14 +1,14 @@
-NO ./japtext/japset0_0.xpm
+NO ./texture/pacarré2.xpm
 
-SO ./japtext/japset0_2.xpm
+SO ./texture/japanesewallset.xpm
 
 
 F 144,238,144
 
-EA ./japtext/japset0_1.xpm
+EA ./texture/pacarré.xpm
 
 
-WE ./japtext/japset0_3.xpm
+WE ./texture/pacarrétoupetit.xpm
 
 C 120,136,250
 

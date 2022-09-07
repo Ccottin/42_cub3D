@@ -15,8 +15,8 @@
 void	set_caster(t_data *data)
 {
 	init_player(data);
-	data->caster.screen_l = 860;
-	data->caster.screen_w = 600;
+	data->caster.screen_l = 1001;
+	data->caster.screen_w = 1001;
 	data->caster.middle_l = data->caster.screen_l / 2;
 	data->caster.middle_w = data->caster.screen_w / 2;
 }
@@ -59,6 +59,10 @@ void	set_null_caster(t_data *data)
 
 void	set_null_imgs(t_data *data)
 {
+	data->map.north_texture = NULL;
+	data->map.south_texture = NULL;
+	data->map.east_texture = NULL;
+	data->map.west_texture = NULL;
 	data->img0.img = NULL;
 	data->south.img = NULL;
 	data->north.img = NULL;
@@ -74,10 +78,6 @@ void	set_null(t_data *data)
 	data->map.map_size = 0;
 	data->map.map_width = 0;
 	data->map.map = NULL;
-	data->map.north_texture = NULL;
-	data->map.south_texture = NULL;
-	data->map.east_texture = NULL;
-	data->map.west_texture = NULL;
 	data->map.floor_color.red = -1;
 	data->map.floor_color.green = -1;
 	data->map.floor_color.blue = -1;
