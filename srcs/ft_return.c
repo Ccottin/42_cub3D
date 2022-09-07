@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 19:08:52 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 22:22:51 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ void	free_all(t_data *data)
 	clear_mlx(data);
 }
 
-void	ft_return2(int ret, t_data *data)
+void	ft_return2(int ret)
 {
 	if (ret == -3)
 		printf("Error\nMap has a missing item\n");
@@ -111,9 +111,9 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nInvalid file extension\n");
 		exit(0);
 	}
-  free_all(data);
-	else if (ret != -1)
-		ft_return2(ret, data);
+ 	 free_all(data);
+	if (ret != -1)
+		ft_return2(ret);
 	if (ret == -1)
 	{
 		printf("Error\n");
