@@ -85,6 +85,7 @@ typedef struct s_data {
 
 char	*ft_strdup(char *s);
 void	*ft_calloc(size_t nmem);
+unsigned long	create_rgb(int r, int g, int b);
 int	events_handler(t_data *data);
 int	key_right(t_data *data);
 int	key_left(t_data *data);
@@ -108,6 +109,8 @@ int	get_info_wall(t_data *data, char *str, int i);
 int	init_mlx(t_data *data);
 int	init_img(t_img *img, t_data *data, int mark);
 int	raycaster(t_data *data);
+int	init_texture(t_data *data);
+void	draw_line(t_data *data, double dist, int x);
 void	init_player(t_data *data);
 void	reload_img(t_data *data);
 void	free_map(t_data *data);

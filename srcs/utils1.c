@@ -6,7 +6,7 @@
 /*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 18:15:24 by ybendavi          #+#    #+#             */
-/*   Updated: 2022/09/07 22:08:05 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 22:59:29 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,4 +52,9 @@ void	pixel_to_image(t_data *data, int x, int y, int color)
 	dst = data->img0.addr + (y * data->img0.line_length
 			+ x * (data->img0.bpx / 8));
 	*(unsigned int *)dst = color;
+}
+
+unsigned long	create_rgb(int r, int g, int b)
+{
+	return (((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff));
 }
