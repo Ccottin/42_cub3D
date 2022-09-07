@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 10:13:19 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 19:28:32 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 18:32:20 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	init_mlx(t_data *data)
 	if (!data->win.mlx)
 		return (-1);
 	data->win.win = mlx_new_window(data->win.mlx, data->caster.screen_l,
-		data->caster.screen_w, "cub3D");
+			data->caster.screen_w, "cub3D");
 	if (!data->win.win)
 		return (-1);
 	return (0);
@@ -37,11 +37,11 @@ int	init_img(t_img *img, t_data *data, int mark)
 {
 	if (mark == 0)
 		img->img = mlx_new_image(data->win.mlx, data->caster.screen_l,
-			data->caster.screen_w);
+				data->caster.screen_w);
 	if (!img->img)
 		return (-1);
 	img->addr = mlx_get_data_addr(img->img, &(img->bpx),
-		&(img->line_length), &(img->endian));
+			&(img->line_length), &(img->endian));
 	return (0);
 }
 
