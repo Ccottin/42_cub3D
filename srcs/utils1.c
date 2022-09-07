@@ -6,7 +6,7 @@
 /*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 18:15:24 by ybendavi          #+#    #+#             */
-/*   Updated: 2022/09/06 18:15:26 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 19:09:40 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,5 +53,3 @@ void	pixel_to_image(t_data *data, int x, int y, int color)
 			+ x * (data->img0.bpx / 8));
 	*(unsigned int *)dst = color;
 }
-
-

@@ -6,7 +6,7 @@
 /*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 18:16:33 by ybendavi          #+#    #+#             */
-/*   Updated: 2022/09/06 23:27:55 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 18:59:34 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -207,7 +207,7 @@ int	detach_map(t_data *data)
 		return (ret);
 	if (get_new_map(data, i))
 		return (-1);
-	if  (map_closed(data))
+	if (map_closed(data))
 		return (-11);
 	return (0);
 }

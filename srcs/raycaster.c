@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 00:27:10 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 20:41:04 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ void	get_dist(t_data *data, double *distx, double *disty)
 
 void	set_search(t_data *data, double *distx, double *disty, int *wall)
 {
-	*wall = 0;	
+	*wall = 0;
 	data->caster.casex = (int)data->caster.playerx; //a voir ou on le met en fonction des calculs du mvt ptet chq debut de loop sufit
 	data->caster.casey = (int)data->caster.playery;
 	if (data->caster.raydirx == 0.00)
@@ -50,7 +50,7 @@ void	set_search(t_data *data, double *distx, double *disty, int *wall)
 	else
 		data->caster.addx = fabs(1 / data->caster.raydirx);
 	if (data->caster.raydiry == 0.00)
-		data->caster.addy = 1/ 0.0000001;
+		data->caster.addy = 1 / 0.0000001;
 	else
 		data->caster.addy = fabs(1 / data->caster.raydiry);
 	get_dist(data, distx, disty);
@@ -75,12 +75,12 @@ void	search_wall(t_data *data, double *distx, double *disty)
 			data->caster.side = -1;
 			data->caster.casey += data->caster.diry;
 		}
-		if (data->caster.casey < 0 || data->caster.casex < 0 
+		if (data->caster.casey < 0 || data->caster.casex < 0
 			|| !data->map.map[data->caster.casey]
 			|| !data->map.map[data->caster.casey][data->caster.casex])
-			break;
-		if (data->map.map[data->caster.casey][data->caster.casex] && 
-			data->map.map[data->caster.casey][data->caster.casex] == '1')
+			break ;
+		if (data->map.map[data->caster.casey][data->caster.casex]
+				&& data->map.map[data->caster.casey][data->caster.casex] == '1')
 			wall = 1;
 	}
 	if (data->caster.side == 1)
@@ -89,9 +89,9 @@ void	search_wall(t_data *data, double *distx, double *disty)
 		*disty -= data->caster.addy;
 }
 
-unsigned long createRGB(int r, int g, int b)
+unsigned long	create_rgb(int r, int g, int b)
 {
-    return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
+	return (((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff));
 }
 
 void	draw_ceiling_floor(int start, t_data *data, int x, int end)
@@ -101,18 +101,18 @@ void	draw_ceiling_floor(int start, t_data *data, int x, int end)
 	i = 0;
 	while (i < start && i < data->caster.screen_w && x < data->caster.screen_l)
 	{
-		pixel_to_image(data, x, i, createRGB(data->map.ceiling_color.red,
-			data->map.ceiling_color.green,
-			data->map.ceiling_color.blue));
+		pixel_to_image(data, x, i, create_rgb(data->map.ceiling_color.red,
+				data->map.ceiling_color.green,
+				data->map.ceiling_color.blue));
 		i++;
 	}
 	while (i < end)
 		i++;
 	while (i < data->caster.screen_w && x < data->caster.screen_l)
 	{
-		pixel_to_image(data, x, i, createRGB(data->map.floor_color.red,
-		data->map.floor_color.green,
-		data->map.floor_color.blue));
+		pixel_to_image(data, x, i, create_rgb(data->map.floor_color.red,
+				data->map.floor_color.green,
+				data->map.floor_color.blue));
 		i++;
 	}
 }
@@ -132,16 +132,16 @@ t_img	*get_texture(t_data *data)
 	{
 		if (data->caster.casey > data->caster.playery)
 			img = &data->south;
-		else	
+		else
 			img = &data->north;
 	}
 	data->caster.wallhit -= (int)data->caster.wallhit;
-	data->caster.wallhit = fabs(1.0 -  data->caster.wallhit);
-	data->caster.texposx =(int)((double)img->width * data->caster.wallhit);
+	data->caster.wallhit = fabs(1.0 - data->caster.wallhit);
+	data->caster.texposx = (int)((double)img->width * data->caster.wallhit);
 	if (data->caster.texposx >= img->width)
 		data->caster.texposx = img->width - 1;
 	if ((data->caster.side == -1 && data->caster.raydiry < 0)
-		||(data->caster.side == 1 && data->caster.raydirx > 0))
+		|| (data->caster.side == 1 && data->caster.raydirx > 0))
 		data->caster.texposx = img->width - data->caster.texposx;
 	return (img);
 }
@@ -151,9 +151,9 @@ int	get_color(t_data *data, t_img *img)
 	int	color;
 	int	rgb;
 
-	color = *(int*)(img->addr
-		+ ((int)data->caster.texposy * img->height
-		+ (int)data->caster.texposx) * 4);
+	color = *(int *)(img->addr
+			+ ((int)data->caster.texposy * img->height
+				+ (int)data->caster.texposx) * 4);
 	rgb = (color & 0xFF0000) | (color & 0x00FF00) | (color & 0x0000FF);
 	return (rgb);
 }
@@ -164,7 +164,7 @@ void	draw_line2(t_data *data, int *start, int x, t_img *img)
 
 	if (data->caster.texposy >= img->height)
 		data->caster.texposy = img->height - 1;
-  	color = get_color(data, img);
+	color = get_color(data, img);
 	if (data->caster.side == 1)
 		pixel_to_image(data, x, *start, (color >> 1) & 8355711);
 	else
@@ -173,12 +173,11 @@ void	draw_line2(t_data *data, int *start, int x, t_img *img)
 	(*start)++;
 }
 
-
 void	draw_line(t_data *data, double dist, int x)
 {
 	double	line;
-	int	start;
-	int	end;
+	int		start;
+	int		end;
 	t_img	*img;
 
 	line = ((float)data->caster.screen_w / dist);
@@ -196,7 +195,7 @@ void	draw_line(t_data *data, double dist, int x)
 	data->caster.texposy = (start - data->caster.middle_w + line / 2 + 1)
 		* data->caster.stepy;
 	while (start < end)
-  		draw_line2(data, &start, x, img);
+		draw_line2(data, &start, x, img);
 }
 
 void	get_raydir(t_data *data, int start)
@@ -206,12 +205,12 @@ void	get_raydir(t_data *data, int start)
 	data->caster.raydirx = data->caster.dirplayerx
 		+ data->caster.planex * data->caster.camerax;
 	data->caster.raydiry = data->caster.dirplayery
-		+ data->caster.planey * data->caster.camerax;	
+		+ data->caster.planey * data->caster.camerax;
 }
 
 int	get_img(t_data *data)
 {
-	int	start;
+	int		start;
 	double	distx;
 	double	disty;
 
@@ -242,14 +241,14 @@ int	get_img(t_data *data)
 
 int	init_texture(t_data *data)
 {
-	data->north.img = mlx_xpm_file_to_image(data->win.mlx, 
-	data->map.north_texture, &data->north.width, &data->north.height);
-	data->south.img = mlx_xpm_file_to_image(data->win.mlx, 
-	data->map.south_texture, &data->south.width, &data->south.height);
-	data->east.img = mlx_xpm_file_to_image(data->win.mlx, 
-	data->map.east_texture, &data->east.width, &data->east.height);
-	data->west.img = mlx_xpm_file_to_image(data->win.mlx, 
-	data->map.west_texture, &data->west.width, &data->west.height);
+	data->north.img = mlx_xpm_file_to_image(data->win.mlx,
+			data->map.north_texture, &data->north.width, &data->north.height);
+	data->south.img = mlx_xpm_file_to_image(data->win.mlx,
+			data->map.south_texture, &data->south.width, &data->south.height);
+	data->east.img = mlx_xpm_file_to_image(data->win.mlx,
+			data->map.east_texture, &data->east.width, &data->east.height);
+	data->west.img = mlx_xpm_file_to_image(data->win.mlx,
+			data->map.west_texture, &data->west.width, &data->west.height);
 	if (!data->north.img || !data->south.img || !data->east.img
 		|| !data->west.img)
 		return (-1);
