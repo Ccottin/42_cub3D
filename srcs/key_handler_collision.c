@@ -6,7 +6,7 @@
 /*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 18:13:48 by ybendavi          #+#    #+#             */
-/*   Updated: 2022/09/07 19:15:52 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 19:14:27 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ int	move_forward(t_data *data)
 	mspeed = 0.2;
 	x_next = data->caster.playerx + data->caster.dirplayerx * mspeed;
 	y_next = data->caster.playery + data->caster.dirplayery * mspeed;
+	//if (data->map.map[y_next][x_next] == '0')
 	if (check_map_end(x_next, y_next, data) == 0)
 	{
 		data->caster.playerx = data->caster.playerx
@@ -59,6 +60,7 @@ int	move_left(t_data *data)
 	mspeed = 0.2;
 	x_next = data->caster.playerx + data->caster.dirplayery * mspeed;
 	y_next = data->caster.playery - data->caster.dirplayerx * mspeed;
+	//if (data->map.map[y_next][x_next] == '0')
 	if (check_map_end(x_next, y_next, data) == 0)
 	{
 		data->caster.playerx = data->caster.playerx
@@ -79,6 +81,7 @@ int	move_right(t_data *data)
 	mspeed = 0.2;
 	x_next = data->caster.playerx - data->caster.dirplayery * mspeed;
 	y_next = data->caster.playery + data->caster.dirplayerx * mspeed;
+	//if (data->map.map[y_next][x_next] == '0')
 	if (check_map_end(x_next, y_next, data) == 0)
 	{
 		data->caster.playerx = data->caster.playerx
@@ -99,6 +102,7 @@ int	move_backward(t_data *data)
 	mspeed = 0.2;
 	x_next = data->caster.playerx - data->caster.dirplayerx * mspeed;
 	y_next = data->caster.playery - data->caster.dirplayery * mspeed;
+	//if (data->map.map[y_next][x_next] == '0')
 	if (check_map_end(x_next, y_next, data) == 0)
 	{
 		data->caster.playerx = data->caster.playerx
