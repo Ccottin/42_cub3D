@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 17:29:02 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 00:27:10 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,6 +75,10 @@ void	search_wall(t_data *data, double *distx, double *disty)
 			data->caster.side = -1;
 			data->caster.casey += data->caster.diry;
 		}
+		if (data->caster.casey < 0 || data->caster.casex < 0 
+			|| !data->map.map[data->caster.casey]
+			|| !data->map.map[data->caster.casey][data->caster.casex])
+			break;
 		if (data->map.map[data->caster.casey][data->caster.casex] && 
 			data->map.map[data->caster.casey][data->caster.casex] == '1')
 			wall = 1;
@@ -95,7 +99,7 @@ void	draw_ceiling_floor(int start, t_data *data, int x, int end)
 	int	i;
 
 	i = 0;
-	while (i < start)
+	while (i < start && i < data->caster.screen_w && x < data->caster.screen_l)
 	{
 		pixel_to_image(data, x, i, createRGB(data->map.ceiling_color.red,
 			data->map.ceiling_color.green,
@@ -104,7 +108,7 @@ void	draw_ceiling_floor(int start, t_data *data, int x, int end)
 	}
 	while (i < end)
 		i++;
-	while (i < data->caster.screen_w)
+	while (i < data->caster.screen_w && x < data->caster.screen_l)
 	{
 		pixel_to_image(data, x, i, createRGB(data->map.floor_color.red,
 		data->map.floor_color.green,
