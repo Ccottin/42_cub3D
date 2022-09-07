@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 00:27:10 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 22:07:53 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	get_dist(t_data *data, double *distx, double *disty)
 void	set_search(t_data *data, double *distx, double *disty, int *wall)
 {
 	*wall = 0;	
-	data->caster.casex = (int)data->caster.playerx; //a voir ou on le met en fonction des calculs du mvt ptet chq debut de loop sufit
+	data->caster.casex = (int)data->caster.playerx; 
 	data->caster.casey = (int)data->caster.playery;
 	if (data->caster.raydirx == 0.00)
 		data->caster.addx = 1 / 0.0000001;
@@ -56,6 +56,21 @@ void	set_search(t_data *data, double *distx, double *disty, int *wall)
 	get_dist(data, distx, disty);
 }
 
+double	loop_search_wall(t_data *data, double add, char c)
+{
+	if (c == 'x')
+	{
+		data->caster.side = 1;
+		data->caster.casex += data->caster.dirx;	
+	}
+	else if (c == 'y')
+	{
+		data->caster.side = -1;
+		data->caster.casey += data->caster.diry;
+	}
+	return (add);
+}
+
 void	search_wall(t_data *data, double *distx, double *disty)
 {
 	int	wall;
@@ -64,17 +79,9 @@ void	search_wall(t_data *data, double *distx, double *disty)
 	while (wall == 0)
 	{
 		if (*distx < *disty)
-		{
-			*distx += data->caster.addx;
-			data->caster.side = 1;
-			data->caster.casex += data->caster.dirx;
-		}
+			*distx += loop_search_wall(data, data->caster.addx, 'x');
 		else
-		{
-			*disty += data->caster.addy;
-			data->caster.side = -1;
-			data->caster.casey += data->caster.diry;
-		}
+			*disty += loop_search_wall(data, data->caster.addy, 'y');
 		if (data->caster.casey < 0 || data->caster.casex < 0 
 			|| !data->map.map[data->caster.casey]
 			|| !data->map.map[data->caster.casey][data->caster.casex])
@@ -87,11 +94,6 @@ void	search_wall(t_data *data, double *distx, double *disty)
 		*distx -= data->caster.addx;
 	else
 		*disty -= data->caster.addy;
-}
-
-unsigned long createRGB(int r, int g, int b)
-{
-    return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
 }
 
 void	draw_ceiling_floor(int start, t_data *data, int x, int end)
@@ -124,16 +126,16 @@ t_img	*get_texture(t_data *data)
 	if (data->caster.side == 1)
 	{
 		if (data->caster.casex > data->caster.playerx)
-			img = &data->east;
-		else
 			img = &data->west;
+		else
+			img = &data->east;
 	}
 	else
 	{
 		if (data->caster.casey > data->caster.playery)
-			img = &data->south;
-		else	
 			img = &data->north;
+		else	
+			img = &data->south;
 	}
 	data->caster.wallhit -= (int)data->caster.wallhit;
 	data->caster.wallhit = fabs(1.0 -  data->caster.wallhit);
@@ -142,7 +144,7 @@ t_img	*get_texture(t_data *data)
 		data->caster.texposx = img->width - 1;
 	if ((data->caster.side == -1 && data->caster.raydiry < 0)
 		||(data->caster.side == 1 && data->caster.raydirx > 0))
-		data->caster.texposx = img->width - data->caster.texposx;
+		data->caster.texposx = img->width - data->caster.texposx - 1;
 	return (img);
 }
 
@@ -151,9 +153,8 @@ int	get_color(t_data *data, t_img *img)
 	int	color;
 	int	rgb;
 
-	color = *(int*)(img->addr
-		+ ((int)data->caster.texposy * img->height
-		+ (int)data->caster.texposx) * 4);
+	color = *(int*)(img->addr + ((int)data->caster.texposy * img->height
+		+ data->caster.texposx) * 4);
 	rgb = (color & 0xFF0000) | (color & 0x00FF00) | (color & 0x0000FF);
 	return (rgb);
 }
@@ -187,12 +188,10 @@ void	draw_line(t_data *data, double dist, int x)
 	if (start < 0)
 		start = 0;
 	if (end > data->caster.screen_w)
-		end = data->caster.screen_w;
-//	printf("line = %f, start = %d end = %d start + end = %d\n", line,start, end,  end - start);
+		end = data->caster.screen_w - 1;
 	img = get_texture(data);
 	draw_ceiling_floor(start, data, x, end);
 	data->caster.stepy = 1.0 * (double)img->height / line;
-//	printf("stepy = %f\n", data->caster.stepy);
 	data->caster.texposy = (start - data->caster.middle_w + line / 2 + 1)
 		* data->caster.stepy;
 	while (start < end)

@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/04 17:15:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 18:09:56 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 19:26:33 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,13 +49,14 @@ int	get_colors_2(t_data *data, char *str, int *i, int *count)
 		buffer[y++] = str[(*i)++];
 	while (str[*i] && str[*i] == ' ')
 		(*i)++;
-	printf("buffer = %s count = %d\n", buffer, *count);
 	if (str[(*i)] && *count != 2 && str[*i] != ',')
 	{
 		free(buffer);
 		return (-7);
 	}
 	ret = fill_colors(data, buffer, count, data->map.c);
+	if (y == 0)
+		ret = -8;
 	free(buffer);
 	if (ret)
 		return (ret);
@@ -100,10 +101,10 @@ int	search_info(t_data *data, char *str)
 			return (get_info_wall_0(data, str, 2, 'N'));
 		else if (str[0] == 'S' && str[1] == 'O')
 			return (get_info_wall_0(data, str, 2, 'S'));
-		else if (str[0] == 'E' && str[1] == 'A')
-			return (get_info_wall_1(data, str, 2, 'E'));
 		else if (str[0] == 'W' && str[1] == 'E')
-			return (get_info_wall_1(data, str, 2, 'W'));
+			return (get_info_wall_0(data, str, 2, 'W'));
+		else if (str[0] == 'E' && str[1] == 'A')
+			return (get_info_wall_1(data, str, 2));
 	}
 	else if (str[0] == 'C' || str[0] == 'F')
 	{
@@ -139,10 +140,6 @@ int	set_info(t_data *data)
 	if (!all_info_set(data))
 		return (-3);
 	ret = detach_map(data);
-	int	y = -1;
-	while (data->map.map[++y])
-		printf("%s\n",data->map.map[y]);
-
 	if (ret)
 		return (ret);
 	return (0);
