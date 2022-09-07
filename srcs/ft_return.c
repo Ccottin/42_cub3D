@@ -29,6 +29,8 @@ void	free_map(t_data *data)
 
 void	clear_mlx(t_data *data)
 {
+	if (!data->win.mlx)
+		return ;
 	if (data->img0.img)
 		mlx_destroy_image(data->win.mlx, data->img0.img);
 	if (data->south.img)

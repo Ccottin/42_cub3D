@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:21:42 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 21:52:04 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 18:27:54 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ int	check_last_char(t_data *data, char *buffer, int end)
 	i = 0;
 	while (data->map.map[data->map.map_size - 1][i])
 		i++;
-	if (i == 0 || data->map.map[data->map.map_size - 1][i - 1] == '\n')
+	if (i != 0 && data->map.map[data->map.map_size - 1][i - 1] == '\n')
 		return (0);
 	data->map.map[data->map.map_size - 1]
 		= ft_concat(data->map.map[data->map.map_size - 1], buffer, end);
