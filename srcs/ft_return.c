@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 20:53:05 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 19:08:52 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	free_map(t_data *data)
 
 	i = 0;
 	if (!data->map.map)
-		return;
+		return ;
 	while (data->map.map[i])
 	{
 		free(data->map.map[i]);
@@ -60,7 +60,7 @@ void	free_init(t_data *data)
 	if (data->map.south_texture)
 		free(data->map.south_texture);
 	if (data->map.east_texture)
-		free(data->map.east_texture);	
+		free(data->map.east_texture);
 	if (data->map.west_texture)
 		free(data->map.west_texture);
 	data->map.north_texture = NULL;
@@ -76,10 +76,8 @@ void	free_all(t_data *data)
 	clear_mlx(data);
 }
 
-
 void	ft_return2(int ret, t_data *data)
 {
-	free_all(data);
 	if (ret == -3)
 		printf("Error\nMap has a missing item\n");
 	else if (ret == -4)
@@ -113,9 +111,9 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nInvalid file extension\n");
 		exit(0);
 	}
+  free_all(data);
 	else if (ret != -1)
 		ft_return2(ret, data);
-	free_all(data);
 	if (ret == -1)
 	{
 		printf("Error\n");

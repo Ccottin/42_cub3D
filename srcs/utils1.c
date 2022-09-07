@@ -53,8 +53,3 @@ void	pixel_to_image(t_data *data, int x, int y, int color)
 			+ x * (data->img0.bpx / 8));
 	*(unsigned int *)dst = color;
 }
-
-unsigned long createRGB(int r, int g, int b)
-{
-    return ((r & 0xff) << 16) + ((g & 0xff) << 8) + (b & 0xff);
-}

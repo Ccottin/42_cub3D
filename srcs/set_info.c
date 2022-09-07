@@ -72,12 +72,12 @@ int	get_colors(t_data *data, char *str, int i, char c)
 	while (str[i] && str[i] == ' ')
 		i++;
 	data->map.c = c;
-		while (count < 3 && str[i])
+	while (count < 3 && str[i])
 	{
 		ret = get_colors_2(data, str, &i, &count);
 		if (ret)
 			return (ret);
-		if (count < 3 && str[i] && str[i] != ',') 
+		if (count < 3 && str[i] && str[i] != ',')
 			return (-7);
 		if (str[i] && count != 3 && str[i] == ',')
 			i++;
@@ -108,8 +108,8 @@ int	search_info(t_data *data, char *str)
 	}
 	else if (str[0] == 'C' || str[0] == 'F')
 	{
-		if ((str[0] == 'C' && data->map.ceiling_color.red != -1) ||
-			(str[0] == 'F' && data->map.floor_color.red != -1))
+		if ((str[0] == 'C' && data->map.ceiling_color.red != -1)
+			|| (str[0] == 'F' && data->map.floor_color.red != -1))
 			return (-5);
 		else
 			return (get_colors(data, str, 1, str[0]));
