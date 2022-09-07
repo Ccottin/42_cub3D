@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/04 17:15:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 19:26:33 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/08 00:36:13 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ int	get_colors_2(t_data *data, char *str, int *i, int *count)
 	return (0);
 }
 
-int	get_colors(t_data *data, char *str, int i, char c)
+int	get_colors(t_data *data, char *str, int i)
 {
 	int	count;
 	int	ret;
@@ -71,7 +71,6 @@ int	get_colors(t_data *data, char *str, int i, char c)
 	count = 0;
 	while (str[i] && str[i] == ' ')
 		i++;
-	data->map.c = c;
 	while (count < 3 && str[i])
 	{
 		ret = get_colors_2(data, str, &i, &count);
@@ -108,11 +107,12 @@ int	search_info(t_data *data, char *str)
 	}
 	else if (str[0] == 'C' || str[0] == 'F')
 	{
+		data->map.c = str[0];
 		if ((str[0] == 'C' && data->map.ceiling_color.red != -1)
 			|| (str[0] == 'F' && data->map.floor_color.red != -1))
 			return (-5);
 		else
-			return (get_colors(data, str, 1, str[0]));
+			return (get_colors(data, str, 1));
 	}
 	else if (str[0] == 0)
 		return (0);
@@ -132,6 +132,7 @@ int	set_info(t_data *data)
 		ret = search_info(data, data->map.map[i]);
 		if (ret)
 			return (ret);
+		data->map.c = 0;
 		i++;
 	}
 	if (data->map.map[i] && !(is_char_map(data->map.map[i][0]))

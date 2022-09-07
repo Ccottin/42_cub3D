@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/04 18:54:38 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 18:58:54 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/08 00:12:31 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,9 +46,10 @@ int	get_info_wall_3(t_data *data, char *str, int i, int y)
 			return (-5);
 		data->map.west_texture = fill_info_wall(str, i, y);
 	}
-	if ((data->map.c == 'S' && !data->map.south_texture) || (data->map.c == 'N'
-		&& !data->map.north_texture) ||  (data->map.c == 'W' && !data->map.west_texture))
-			return (-1);
+	if ((data->map.c == 'S' && !data->map.south_texture)
+		|| (data->map.c == 'N' && !data->map.north_texture)
+		|| (data->map.c == 'W' && !data->map.west_texture))
+		return (-1);
 	return (0);
 }
 

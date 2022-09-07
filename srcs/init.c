@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 10:13:19 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 23:01:30 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/08 00:34:55 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,7 @@ void	set_null(t_data *data)
 	data->caster.dirplayery = 0;
 	data->caster.planex = 0;
 	data->caster.planey = 0;
+	data->map.c = 0;
 	set_null_imgs(data);
 	set_null_caster(data);
 }

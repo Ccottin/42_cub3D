@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 22:22:51 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/08 00:28:50 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,22 +53,6 @@ void	clear_mlx(t_data *data)
 	}
 }
 
-void	free_init(t_data *data)
-{
-	if (data->map.north_texture)
-		free(data->map.north_texture);
-	if (data->map.south_texture)
-		free(data->map.south_texture);
-	if (data->map.east_texture)
-		free(data->map.east_texture);
-	if (data->map.west_texture)
-		free(data->map.west_texture);
-	data->map.north_texture = NULL;
-	data->map.south_texture = NULL;
-	data->map.east_texture = NULL;
-	data->map.west_texture = NULL;
-}
-
 void	free_all(t_data *data)
 {
 	free_init(data);
@@ -111,7 +95,7 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nInvalid file extension\n");
 		exit(0);
 	}
- 	 free_all(data);
+	free_all(data);
 	if (ret != -1)
 		ft_return2(ret);
 	if (ret == -1)

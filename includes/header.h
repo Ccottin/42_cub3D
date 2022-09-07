@@ -84,6 +84,7 @@ typedef struct s_data {
 	}	t_data;
 
 char	*ft_strdup(char *s);
+char	*ft_concat(char *s1, char *s2, int end);
 void	*ft_calloc(size_t nmem);
 unsigned long	create_rgb(int r, int g, int b);
 int	events_handler(t_data *data);
@@ -102,14 +103,19 @@ int	ft_atoi(const char *nptr);
 int	set_info(t_data *data);
 int	init_map(char *av, t_data *data);
 int	all_info_set(t_data *data);
-int	get_img(t_data *data);
+int	get_img(t_data *data, int start);
 int	get_info_wall_0(t_data *data, char *str, int i, char c);
 int	get_info_wall_1(t_data *data, char *str, int i);
 int	get_info_wall(t_data *data, char *str, int i);
 int	init_mlx(t_data *data);
 int	init_img(t_img *img, t_data *data, int mark);
 int	raycaster(t_data *data);
+int	malloc_gm_init(t_data *data, char **buffer, char *av);
+int	check_last_char(t_data *data, char *buffer, int end);
+int	ft_cpy(t_data *data, char *buffer, int start, int end);
 int	init_texture(t_data *data);
+int	map_closed(t_data *data);
+void	get_dist(t_data *data, double *distx, double *disty);
 void	draw_line(t_data *data, double dist, int x);
 void	init_player(t_data *data);
 void	reload_img(t_data *data);
