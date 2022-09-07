@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 17:18:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 22:32:41 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 18:36:32 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,8 @@ void	free_map(t_data *data)
 
 void	clear_mlx(t_data *data)
 {
+	if (!data->win.mlx)
+		return ;
 	if (data->img0.img)
 		mlx_destroy_image(data->win.mlx, data->img0.img);
 	if (data->south.img)
@@ -81,6 +83,7 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nPlease give a single map as argument\n");
 		exit(0);
 	}
+	free_all(data);
 	if (ret == -2)
 	{
 		printf("Error\nInvalid file extension\n");
@@ -131,7 +134,6 @@ void	ft_return(int ret, t_data *data)
 		printf("Error\nMap is not surrounded by wall\n");
 		exit(0);
 	}
-	free_all(data);
 	if (ret == -1)
 	{
 		printf("Error\n");

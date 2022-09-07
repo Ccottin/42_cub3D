@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/04 17:15:16 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 00:11:55 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 18:09:56 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,15 +47,15 @@ int	get_colors_2(t_data *data, char *str, int *i, int *count)
 	y = 0;
 	while (y < 3 && str[*i] && (str[*i] >= '0' && str[*i] <= '9'))
 		buffer[y++] = str[(*i)++];
-	if (str[(*i)] && *count != 2 && (str[*i] != ',' && str[*i] != ' '))
+	while (str[*i] && str[*i] == ' ')
+		(*i)++;
+	printf("buffer = %s count = %d\n", buffer, *count);
+	if (str[(*i)] && *count != 2 && str[*i] != ',')
 	{
 		free(buffer);
 		return (-7);
 	}
-	while (str[*i] && str[*i] == ' ')
-		(*i)++;
 	ret = fill_colors(data, buffer, count, data->map.c);
-	printf("buffer = %s\n", buffer);
 	free(buffer);
 	if (ret)
 		return (ret);
@@ -71,20 +71,22 @@ int	get_colors(t_data *data, char *str, int i, char c)
 	while (str[i] && str[i] == ' ')
 		i++;
 	data->map.c = c;
-	while (count < 3 && str[i])
+		while (count < 3 && str[i])
 	{
 		ret = get_colors_2(data, str, &i, &count);
 		if (ret)
 			return (ret);
-		if (str[i] && str[i] == ',')
+		if (count < 3 && str[i] && str[i] != ',') 
+			return (-7);
+		if (str[i] && count != 3 && str[i] == ',')
 			i++;
 		while (str[i] && str[i] == ' ')
 			i++;
 	}
 	while (count < 3 && str[i] && str[i] == ' ')
 		i++;
-	if (str[i - 1] && str[i - 1] != '\n')
-		return (-5);
+	if (str[i] && str[i] != 0)
+		return (-7);
 	if (count != 3)
 		return (-8);
 	return (0);
@@ -104,7 +106,13 @@ int	search_info(t_data *data, char *str)
 			return (get_info_wall_1(data, str, 2, 'W'));
 	}
 	else if (str[0] == 'C' || str[0] == 'F')
-		return (get_colors(data, str, 1, str[0]));
+	{
+		if ((str[0] == 'C' && data->map.ceiling_color.red != -1) ||
+			(str[0] == 'F' && data->map.floor_color.red != -1))
+			return (-5);
+		else
+			return (get_colors(data, str, 1, str[0]));
+	}
 	else if (str[0] == 0)
 		return (0);
 	else
@@ -131,6 +139,10 @@ int	set_info(t_data *data)
 	if (!all_info_set(data))
 		return (-3);
 	ret = detach_map(data);
+	int	y = -1;
+	while (data->map.map[++y])
+		printf("%s\n",data->map.map[y]);
+
 	if (ret)
 		return (ret);
 	return (0);

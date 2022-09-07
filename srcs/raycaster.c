@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/01 17:24:17 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/06 23:32:25 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/07 17:29:02 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -158,8 +158,8 @@ void	draw_line2(t_data *data, int *start, int x, t_img *img)
 {
 	int	color;
 
-	if (data->caster.texposy > img->height)
-		data->caster.texposy = img->height;
+	if (data->caster.texposy >= img->height)
+		data->caster.texposy = img->height - 1;
   	color = get_color(data, img);
 	if (data->caster.side == 1)
 		pixel_to_image(data, x, *start, (color >> 1) & 8355711);

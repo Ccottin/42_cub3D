@@ -25,7 +25,7 @@ int	main(int ac, char **av)
 		ft_return(1, &data);
 	ret = init_map(av[1], &data);
 //	printf("ret = %d\n", ret);
-	ft_SHOW_US_WHAT_YOU_GOT(&data);
+//	ft_SHOW_US_WHAT_YOU_GOT(&data);
 	if (ret)
 		ft_return(ret, &data);
 	ret = raycaster(&data);
