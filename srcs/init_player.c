@@ -6,7 +6,7 @@
 /*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/06 18:14:53 by ybendavi          #+#    #+#             */
-/*   Updated: 2022/09/07 19:03:06 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 23:23:34 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	set_other_dir(t_data *data, char player_dir)
 		data->caster.dirplayerx = -1;
 		data->caster.dirplayery = 0;
 		data->caster.planex = 0;
-		data->caster.planey = 0.6;
+		data->caster.planey = -0.6;
 	}
 }
 
@@ -43,7 +43,7 @@ void	set_dir(t_data *data, char player_dir)
 	{
 		data->caster.dirplayerx = 0;
 		data->caster.dirplayery = 1;
-		data->caster.planex = 0.6;
+		data->caster.planex = -0.6;
 		data->caster.planey = 0;
 	}
 	else

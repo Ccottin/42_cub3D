@@ -6,20 +6,11 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 10:13:19 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 21:30:09 by ybendavi         ###   ########.fr       */
+/*   Updated: 2022/09/07 23:01:30 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.h"
-
-void	set_caster(t_data *data)
-{
-	init_player(data);
-	data->caster.screen_l = 1001;
-	data->caster.screen_w = 1001;
-	data->caster.middle_l = data->caster.screen_l / 2;
-	data->caster.middle_w = data->caster.screen_w / 2;
-}
 
 int	init_mlx(t_data *data)
 {
