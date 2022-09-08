@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/08 00:26:47 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/08 00:27:41 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/08 16:31:58 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,6 @@ int	raycaster(t_data *data)
 {
 	set_caster(data);
 	if (init_mlx(data))
-		return (-1);
-	if (init_texture(data))
 		return (-1);
 	free_init(data);
 	if (get_img(data, 0))

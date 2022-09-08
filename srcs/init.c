@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/03 10:13:19 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/08 00:34:55 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/08 16:31:40 by ybendavi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ int	init_mlx(t_data *data)
 {
 	data->win.mlx = mlx_init();
 	if (!data->win.mlx)
+		return (-1);
+	if (init_texture(data))
 		return (-1);
 	data->win.win = mlx_new_window(data->win.mlx, data->caster.screen_l,
 			data->caster.screen_w, "cub3D");

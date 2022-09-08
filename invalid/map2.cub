@@ -1,14 +1,16 @@
-NO = ./
+NO ./japtext/japset0_0.xpm
 
-WE = ./
+SO ./japtext/japset0_2.xpm
 
-SO = ./
 
-F = 255, 240, 78
+F 144,238,144
 
-C = 75, 65, 98
+EA ./japtext/japset0_1.xpm
 
-EA = ./
+
+WE ./japtext/japset0_3.xpm
+
+C 120,136,250
 
 	11111
       110000011

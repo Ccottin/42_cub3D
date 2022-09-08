@@ -6,7 +6,7 @@
 #    By: ccottin <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/02 17:05:58 by ccottin           #+#    #+#              #
-#    Updated: 2022/09/08 00:27:57 by ccottin          ###   ########.fr        #
+#    Updated: 2022/09/08 16:26:51 by ybendavi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ SRCS	= srcs/init_map.c srcs/utils.c srcs/init.c srcs/ft_return.c srcs/main.c\
 	srcs/set_info.c srcs/get_info_wall.c srcs/utils1.c srcs/set_info_map.c\
 	srcs/raycaster.c srcs/events_handler.c srcs/key_handler.c\
 	srcs/key_handler_p2.c srcs/init_player.c srcs/initcaster.c srcs/texture.c\
-	srcs/init_map_utils.c srcs/ft_cub3d.c
+	srcs/init_map_utils.c srcs/ft_cub3d.c srcs/map_closed.c
 
 SRCSDIR	= srcs
 
