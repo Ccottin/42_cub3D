@@ -1,12 +1,12 @@
-NO ./oceantext/ocean1_0.xpm
+NO ./texture/oceantext/ocean1_0.xpm
 
-SO ./oceantext/ocean1_2.xpm
+SO ./texture/oceantext/ocean1_2.xpm
 
 F 1,69,106
 
-EA ./oceantext/ocean1_1.xpm
+EA ./texture/oceantext/ocean1_1.xpm
 
-WE ./oceantext/ocean1_3.xpm
+WE ./texture/oceantext/ocean1_3.xpm
 
 C 57,211,223
 

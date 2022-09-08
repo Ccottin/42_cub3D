@@ -1,16 +1,16 @@
-NO ./texture/pacarré2.xpm
+NO ./texture/basic/north.xpm
 
-SO ./texture/japanesewallset.xpm
-
-
-F 144,238,144
-
-EA ./texture/pacarré.xpm
+SO ./texture/basic/south.xpm
 
 
-WE ./texture/pacarrétoupetit.xpm
+F 0,0,0
 
-C 120,136,250
+EA ./texture/basic/east.xpm
+
+
+WE ./texture/basic/wesst.xpm
+
+C 255,255,255
 
 
 1111111111111111111111111
