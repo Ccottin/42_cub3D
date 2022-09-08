@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/07 23:01:09 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 23:05:09 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/08 00:28:59 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,11 +36,27 @@ int	init_texture(t_data *data)
 	return (0);
 }
 
+void	free_init(t_data *data)
+{
+	if (data->map.north_texture)
+		free(data->map.north_texture);
+	if (data->map.south_texture)
+		free(data->map.south_texture);
+	if (data->map.east_texture)
+		free(data->map.east_texture);
+	if (data->map.west_texture)
+		free(data->map.west_texture);
+	data->map.north_texture = NULL;
+	data->map.south_texture = NULL;
+	data->map.east_texture = NULL;
+	data->map.west_texture = NULL;
+}
+
 void	set_caster(t_data *data)
 {
 	init_player(data);
-	data->caster.screen_l = 1001;
-	data->caster.screen_w = 1001;
+	data->caster.screen_l = 860;
+	data->caster.screen_w = 600;
 	data->caster.middle_l = data->caster.screen_l / 2;
 	data->caster.middle_w = data->caster.screen_w / 2;
 }

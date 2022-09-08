@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ybendavi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 20.05/09/06 18:13:48 by ybendavi          #+#    #+#             */
-/*   Updated: 2022/09/07 23:15:32 by ccottin          ###   ########.fr       */
+/*   Created: 20.05/09/06 18:13:48 by ybendavi          #+#    #+#            */
+/*   Updated: 2022/09/08 00:14:36 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ int	key_left(t_data *data)
 		+ data->caster.dirplayery * cos(-0.035);
 	data->caster.planex = data->caster.planex * cos(-0.035)
 		- data->caster.planey * sin(-0.035);
-	data->caster.planey = planx * sin(-0.035) + data->caster.planey * cos(-0.035);
+	data->caster.planey = planx * sin(-0.035)
+		+ data->caster.planey * cos(-0.035);
 	reload_img(data);
 	return (0);
 }

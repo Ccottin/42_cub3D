@@ -6,7 +6,7 @@
 /*   By: ccottin <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/07 22:57:47 by ccottin           #+#    #+#             */
-/*   Updated: 2022/09/07 23:28:12 by ccottin          ###   ########.fr       */
+/*   Updated: 2022/09/08 00:45:55 by ccottin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,7 @@ t_img	*get_texture(t_data *data)
 	if (data->caster.texposx >= img->width)
 		data->caster.texposx = img->width - 1;
 	if ((data->caster.side == -1 && data->caster.raydiry < 0)
-		||(data->caster.side == 1 && data->caster.raydirx > 0))
+		|| (data->caster.side == 1 && data->caster.raydirx > 0))
 		data->caster.texposx = img->width - data->caster.texposx - 1;
 	return (img);
 }
@@ -68,9 +68,9 @@ int	get_color(t_data *data, t_img *img)
 {
 	int	color;
 	int	rgb;
-  
-	color = *(int*)(img->addr + ((int)data->caster.texposy * img->height
-		+ data->caster.texposx) * 4);
+
+	color = *(int *)(img->addr + ((int)data->caster.texposy * img->height
+				+ data->caster.texposx) * 4);
 	rgb = (color & 0xFF0000) | (color & 0x00FF00) | (color & 0x0000FF);
 	return (rgb);
 }
@@ -80,7 +80,7 @@ void	draw_line2(t_data *data, int *start, int x, t_img *img)
 	int	color;
 
 	if (data->caster.texposy >= img->height)
-		data->caster.texposy = img->height - 1;
+		data->caster.texposy = img->height;
 	color = get_color(data, img);
 	if (data->caster.side == 1)
 		pixel_to_image(data, x, *start, (color >> 1) & 8355711);
@@ -103,7 +103,7 @@ void	draw_line(t_data *data, double dist, int x)
 	if (start < 0)
 		start = 0;
 	if (end > data->caster.screen_w)
-		end = data->caster.screen_w - 1;
+		end = data->caster.screen_w;
 	img = get_texture(data);
 	draw_ceiling_floor(start, data, x, end);
 	data->caster.stepy = 1.0 * (double)img->height / line;
